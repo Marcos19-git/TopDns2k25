@@ -38,6 +38,10 @@ const SearchDomain = () => {
       }
 
       setModalOpen(true);
+
+      setTimeout(() => {
+        setModalOpen(false);
+      }, 5000);
     } catch (err) {
       console.error("Erro na requisição:", err);
     } finally {

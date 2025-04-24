@@ -41,18 +41,22 @@ function Projects() {
             link: "",
             imagem: "",
           },
+
           imagem2: data.find((c) => c.id === 26) || {
             link: "",
             imagem: "",
           },
+
           imagem3: data.find((c) => c.id === 27) || {
             link: "",
             imagem: "",
           },
+
           imagem4: data.find((c) => c.id === 28) || {
             link: "",
             imagem: "",
           },
+
           imagem5: data.find((c) => c.id === 29) || {
             link: "",
             imagem: "",
