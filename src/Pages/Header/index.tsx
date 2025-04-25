@@ -58,7 +58,7 @@ function Header() {
           style={{ maxWidth: "100%", maxHeight: "auto" }}
         />
         <div className="divorange absolute top-[65%] left-[24%] transform -translate-y-1/2  text-white  py-2 rounded-md flex ">
-          <a href="https://topdns.com.br/hospedagem" target="_blank">
+          <a href="https://novo.topdns.com.br">
             <button
               title="HOSPEDAGEM"
               className="buttonorange buttonorange22 bg-[#ff8400] min-w-[80px] text-[clamp(0.3em,1vw,1.3em)]  hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)]  border-r-2 border-white font-bold py-2 px-4    "

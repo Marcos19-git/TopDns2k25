@@ -1,0 +1,6 @@
+.buttongreen:active {
+  background-color: rgb(8, 100, 8);
+}
+.buttonred:active {
+  background-color: rgb(161, 8, 8);
+}
