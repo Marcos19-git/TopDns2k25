@@ -77,7 +77,7 @@ function Features() {
           <h2 className="flex justify-center text-[22px] font-bold mt-[20px] mb-[20px]">
             {contatos.paragrafo1.tipo}
           </h2>
-          <p className="flex text-center text-gray-600 text-[18px]">
+          <p className="flex text-center text-gray-400 text-[18px]">
             {contatos.paragrafo1.descricao}
           </p>
         </div>
@@ -91,7 +91,7 @@ function Features() {
             <h2 className="flex justify-center mt-[20px] font-bold text-[22px] mb-[20px]">
               {contatos.paragrafo2.tipo}
             </h2>
-            <p className="flex text-center text-gray-600 text-[18px]">
+            <p className="flex text-center text-gray-400 text-[18px]">
               {contatos.paragrafo2.descricao}
             </p>
           </div>
@@ -106,7 +106,7 @@ function Features() {
             <h2 className="flex  mt-[20px] text-[22px] font-bold justify-center mb-[20px]">
               {contatos.paragrafo3.tipo}
             </h2>
-            <p className="flex text-center text-gray-600 text-[18px]">
+            <p className="flex text-center text-gray-400 text-[18px]">
               {contatos.paragrafo3.descricao}
             </p>
           </div>

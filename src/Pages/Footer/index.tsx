@@ -50,8 +50,8 @@ function Footer() {
 
   return (
     <section>
-      <div className="flex w-full justify-center p-[45px] bg-[#ff8400]">
-        <div className="controldivfooter flex justify-center flex-wrap gap-[100px] gap-y-[40px] max-sm:grid ">
+      <div className="flex w-full justify-center p-[60px] bg-[#ff8400]">
+        <div className="controldivfooter flex justify-center flex-wrap gap-[80px] gap-y-[40px] max-sm:grid ">
           {/* Telefone */}
           <div className="hover:opacity-50">
             <a
@@ -86,7 +86,7 @@ function Footer() {
           </div>
 
           {/* Facebook */}
-          <div className="hover:opacity-50">
+          <div className="run2 hover:opacity-50 ">
             <a
               className="flex justify-center"
               href={contatos.facebook.link}
@@ -101,7 +101,7 @@ function Footer() {
           </div>
 
           {/* Instagram */}
-          <div className="hover:opacity-50">
+          <div className="run1 hover:opacity-50">
             <a
               className="flex justify-center"
               href={contatos.instagram.link}
@@ -116,7 +116,7 @@ function Footer() {
           </div>
 
           {/* Twitter */}
-          <div className="hover:opacity-50">
+          <div className="run1 hover:opacity-50 ">
             <a
               className="flex justify-center"
               href={contatos.twitter.link}

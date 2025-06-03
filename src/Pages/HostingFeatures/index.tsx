@@ -60,7 +60,7 @@ function HostingFeatures() {
           Muito mais recursos disponíveis para o seu site
         </h2>
       </div>
-      <div className="divimg11 flex flex-wrap pt-[30px] gap-[40px] pb-[60px] justify-center w-full bg-[#ff8400]">
+      <div className="divimg11 flex flex-wrap pt-[30px] pr-[30px] pl-[30px] gap-[40px] pb-[60px] justify-center w-full bg-[#ff8400]">
         <img
           className="i1 w-[345px] h-[385px]"
           src={imagens.nome1.descricao}

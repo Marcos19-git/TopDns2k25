@@ -64,6 +64,7 @@ function AssinePage() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
+
     setFormData({
       ...formData,
       [name]: value,
@@ -94,7 +95,7 @@ function AssinePage() {
       const field = key as keyof FormData;
       if (formData[field] === "") {
         formIsValid = false;
-        errorMessages[field] = "Preencha esse campo";
+        errorMessages[field] = "Preencha este campo!";
       } else {
         errorMessages[field] = "";
       }
