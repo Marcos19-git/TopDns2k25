@@ -112,7 +112,7 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="on justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-big-sprout justify-center flex text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano1.espaco_em_disco}
             </div>
             <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">
@@ -133,7 +133,7 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="on justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-big-sprout justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano2.espaco_em_disco}
             </div>
             <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">
@@ -153,7 +153,7 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="on justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-big-sprout justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano3.espaco_em_disco}
             </div>
             <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">

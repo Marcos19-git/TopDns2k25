@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         "big-noodle": ['"Big Noodle Titling"', "sans-serif"],
+        "big-sprout": ['"Sprout Extra Bold"', "sans-serif"],
       },
     },
   },

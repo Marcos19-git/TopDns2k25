@@ -65,7 +65,7 @@ function Footer() {
                 src={Rodape1}
               />
             </a>
-            <p className="font-big-noodle  scale-y-150 flex mt-[17px] font-semibold text-[clamp(0.8rem,_4vw,_0.9rem)] text-white justify-center cursor-pointer">
+            <p className="font-big-noodle  scale-y-130 flex mt-[17px]  text-[25px] text-white justify-center cursor-pointer">
               {contatos.telefone.tipo}
             </p>
           </div>
@@ -80,7 +80,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape2} />
             </a>
-            <p className="font-big-noodle  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
+            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] justify-center  text-white text-[25px]">
               {contatos.email.tipo}
             </p>
           </div>
@@ -95,7 +95,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape3} />
             </a>
-            <p className="font-big-noodle  scale-y-150 cursor-pointer flex mt-[20px] font-semibold justify-center text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
+            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px]  justify-center text-white text-[25px]">
               {contatos.facebook.tipo}
             </p>
           </div>
@@ -110,7 +110,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape4} />
             </a>
-            <p className="font-big-noodle  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
+            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] justify-center  text-white text-[25px]">
               {contatos.instagram.tipo}
             </p>
           </div>
@@ -125,7 +125,7 @@ function Footer() {
             >
               <img className="w-[60px] h-[50px]" src={Twitter} />
             </a>
-            <p className="font-big-noodle  scale-y-150 cursor-pointer flex mt-[20px] text-white font-semibold justify-center text-[clamp(0.8rem,_4vw,_0.7rem)]">
+            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] text-white  justify-center text-[25px]">
               {contatos.twitter.tipo}
             </p>
           </div>
@@ -133,7 +133,7 @@ function Footer() {
       </div>
       <div className="bg-black w-full">
         <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1rem)] p-[20px] font-bold">
-          Copyright 2025 - Todos os direitos Reservados TopDns
+          Copyright 2017 - Todos os direitos Reservados TopDns
         </h1>
       </div>
     </section>
