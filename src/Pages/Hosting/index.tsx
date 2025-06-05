@@ -8,6 +8,7 @@ import Rodape3 from "../Images/Home_55.avif";
 import Rodape4 from "../Images/Home_58.avif";
 import Twitter from "../Images/icon-twitter.avif";
 import "./style.css";
+import Carrossel from "./carrossel.tsx";
 
 function Host() {
   const [domain, setDomain] = useState("");
@@ -58,18 +59,18 @@ function Host() {
   return (
     <div className="w-full h-[100vh] overflow-x-hidden">
       <div className="w-full grid relative">
-        <img className="imagemm w-full" src={ImgHeader} alt="" />
-        <div className="w-full absolute p-3 grid justify-center items-center z-10">
-          <img src={Logo03} alt="" />
+        <img className="imagemm h-[95vh] w-full" src={ImgHeader} alt="" />
+        <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
+          <img className="w-[300px] p-[20px]" src={Logo03} alt="" />
         </div>
         <div className="absolute flex h-full w-full justify-center items-center">
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className="register text-orange-400 text-center mb-[-14px] text-[clamp(0.3em,5vw,3em)] font-bold ">
+              <h1 className="register text-orange-500 text-center mb-[-14px] text-[clamp(0.3em,5vw,3em)] font-bold ">
                 REGISTRO DE DOMINIO
               </h1>
-              <h2 className="register2 text-white text-center text-[clamp(0.3em,2vw,1.1em)] mb-[20px] font-bold ">
+              <h2 className="register2 text-white text-center text-[clamp(0.3em,2vw,1.1em)] mb-[20px]  ">
                 REGISTRE SEU DOMINIO E GARANTA O ENDEREÇO DE SEU SITE
               </h2>
               {/* Botões permanecem iguais */}
@@ -118,13 +119,13 @@ function Host() {
           <div
             className={`divballoon ballondiv z-20 w-[850px] ${
               loading || modalOpen ? "h-[290px]" : "h-[260px]"
-            } mt-[-130px] border-2 border-[#ff8400] bg-[#ff8624] transition-all duration-200 ease-in-out rounded-[40px]`}
+            } mt-[-130px] border-2 border-[#ff8400] bg-[#ff8623] transition-all duration-200 ease-in-out rounded-[40px]`}
           >
             <div className="divtitle flex cursor-default justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2vw,1.975em)] text-black transition-all duration-200 ease-in-out">
               <h1 className="items-center text-center">PESQUISA DE DOMÍNIO</h1>
             </div>
             <div className="divplaceholder flex justify-center ">
-              <div className="wwwdiv cursor-default flex text-white text-[20px] text-center rounded-l-[10px] items-center bg-[#8323d2] pr-[10px] pl-[10px]">
+              <div className="wwwdiv cursor-default flex text-white text-[20px] text-center rounded-l-[10px] items-center bg-purple-900 pr-[10px] pl-[10px]">
                 <h2 className="font-bold">WWW.</h2>
               </div>
               <form className="flex" onSubmit={handleSubmit}>
@@ -143,7 +144,7 @@ function Host() {
                   <button
                     type="submit"
                     id="MyButton"
-                    className="testediv  bg-[#8323d2] pl-[10px] pr-[10px] text-white text-[20px] font-bold rounded-[0.3em]"
+                    className="testediv  bg-purple-900 pl-[10px] pr-[10px] text-white text-[20px] font-bold rounded-[0.3em]"
                   >
                     TESTAR
                   </button>
@@ -189,15 +190,18 @@ function Host() {
           </div>
         </div>
       </div>
-      <div className="w-full h-full flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[70vw]  h-full  border-[3px]  border-amber-400 rounded-[50px] flex flex-wrap">
-          <div className="w-full  flex bg-purple-800 border-orange-400 border-b-[3px] rounded-[50px] ">
-            <div className="basic3 p-2  text-center h-[13vh] bg-purple-800 flex justify-center w-[20vw] items-center rounded-bl-[50px] border-orange-400 rounded-tl-[48px] text-gray-800 font-semibold">
+      <div className="flex lg:hidden">
+        <Carrossel />
+      </div>
+      <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
+        <div className="eid2 w-[70vw]   border-[3px]  border-orange-400 rounded-[50px] hidden lg:flex flex-wrap">
+          <div className="w-full  hidden lg:flex bg-purple-900 border-orange-400 border-b-[3px] rounded-[50px] ">
+            <div className="basic3 p-2  text-center h-[13vh] bg-purple-900 hidden lg:flex justify-center w-[20vw] items-center rounded-bl-[50px] border-orange-400 rounded-tl-[48px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1vw,1em)]  ">
                 CONFIRA AS FERRAMENTAS <br></br>E VANTAGENS DOS PLANOS
               </h2>
             </div>
-            <div className="basic2 p-2 w-[10vw]  rounded-tl-[50px] flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
+            <div className="basic2 p-2 w-[10vw]  rounded-tl-[50px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP
@@ -207,7 +211,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="basic2 border-l p-2 w-[10vw] text-center bg-orange-400 flex justify-center  items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[10vw] text-center bg-orange-400 hidden lg:flex justify-center  items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP
@@ -217,7 +221,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="basic2 border-l p-2 w-[10vw]  text-center bg-orange-400 flex justify-center items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[10vw]  text-center bg-orange-400 hidden  lg:flex justify-center items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP
@@ -227,7 +231,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="basic2 border-l p-2 w-[10vw] text-center bg-orange-400 flex justify-center items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[10vw] text-center bg-orange-400 hidden  lg:flex justify-center items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP
@@ -238,7 +242,7 @@ function Host() {
               </div>
             </div>
             <div className="grid">
-              <div className="basic2 border-l p-2 w-[10vw] text-center  bg-orange-400 flex justify-center items-center rounded-tr-[48px] rounded-br-[50px] text-gray-800 ">
+              <div className="basic2 border-l p-2 w-[10vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[48px] rounded-br-[50px] text-gray-800 ">
                 <div className="grid">
                   <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                     TOP
@@ -250,173 +254,173 @@ function Host() {
               </div>
             </div>
           </div>
-          <div className="w-[100vw] md:w-full flex">
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[40vw]  text-gray-800 font-semibold">
+          <div className="w-[100vw] md:w-full hidden lg:flex">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[40vw]  text-black font-semibold">
               ESPAÇO EM DISCO
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]   text-gray-800 font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]   text-gray-400 font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-400 font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-400 font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-400 font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-gray-400 font-semibold">
               10GB
             </div>
           </div>
-          <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-gray-800 font-semibold">
+          <div className="w-[100vw] md:w-full hidden lg:flex">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
               TRÁFEGO MENSAL
             </div>
-            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               50GB
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               50GB
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-400 font-semibold">
               50GB
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               50GB
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               50GB
             </div>
           </div>
-          <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-gray-800 font-semibold">
+          <div className="w-[100vw] md:w-full hidden lg:flex">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
               BANCO DE DADOS
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               1
             </div>
-            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               1
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               1
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               1
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               1
             </div>
           </div>
           <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 whitespace-nowrap text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-gray-800 font-semibold">
+            <div className="border p-2 whitespace-nowrap text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
               CONTAS DE E-MAIL
             </div>
-            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2  text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               DISPONIVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               DISPONIVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               DISPONIVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               DISPONIVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               DISPONIVEL
             </div>
           </div>
           <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
               DOMINIOS
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               10
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               10
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               10
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               10
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-400 font-semibold">
               10
             </div>
           </div>
           <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
               SERVIDOR
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               MANUAL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               MANUAL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               MANUAL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               MANUAL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               MANUAL
             </div>
           </div>
-          <div className="w-[100vw] md:w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-gray-800 font-semibold">
+          <div className="w-[100vw] md:w-full hidden lg:flex">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
               ANTIVIRUS
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
             </div>
           </div>
-          <div className="w-full flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-gray-800 font-semibold">
+          <div className="w-full hidden lg:flex">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
               NAO DISPONIVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-800 font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
           </div>
-          <div className="w-full flex bg-purple-800 rounded-[50px] border-2 border-orange-500">
-            <div className="border-l p-2 text-center bg-purple-800 h-[20vh]  rounded-tl-[50px] w-[30vw] flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
-              <h1 className="text-white flex text-[clamp(1.5rem,2.8vw,2.8rem)]">
+          <div className="w-full hidden lg:flex bg-purple-950 rounded-[50px] h-[140px] border-2 border-orange-500">
+            <div className="border-l p-2 text-center bg-purple-950  rounded-tl-[50px] w-[30vw] hidden lg:flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
+              <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,2.8vw,2.8rem)]">
                 VALORES
               </h1>
             </div>
-            <div className=" border-orange-500 border-l-[4px] flex  p-2 text-center bg-purple-800 w-[15vw] rounded-tl-[50px]  rounded-bl-[50px] justify-center items-center  text-gray-800 ">
+            <div className=" border-orange-500 border-l-[4px] hidden lg:flex  p-3 text-center bg-purple-900 w-[15vw] rounded-tl-[50px]  rounded-bl-[50px] justify-center items-center  text-gray-800 ">
               <h1 className="text-white text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -428,7 +432,7 @@ function Host() {
                 <h2 className="text-white">Mês</h2>
               </div>
             </div>
-            <div className="border-l flex p-2 text-center bg-purple-800 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
+            <div className="border-l  hidden lg:flex p-2 text-center bg-purple-900 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -440,7 +444,7 @@ function Host() {
                 <h2 className="text-orange-500">Mês</h2>
               </div>
             </div>
-            <div className="border-l flex p-2 text-center bg-purple-800 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
+            <div className="border-l hidden lg:flex p-2 text-center bg-purple-900 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-white text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -452,7 +456,7 @@ function Host() {
                 <h2 className="text-white">Mês</h2>
               </div>
             </div>
-            <div className="border-l flex p-2 text-center bg-purple-800 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
+            <div className="border-l hidden lg:flex p-2 text-center bg-purple-900 w-[15vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -464,7 +468,7 @@ function Host() {
                 <h2 className="text-orange-500">Mês</h2>
               </div>
             </div>
-            <div className="border-l flex p-2 text-center bg-purple-800  w-[15vw] rounded-tr-[50px] justify-center items-center  rounded-br-[48px] text-gray-800 font-semibold">
+            <div className="border-l hidden lg:flex p-2 text-center bg-purple-900  w-[15vw] rounded-tr-[50px] justify-center items-center  rounded-br-[48px] text-gray-800 font-semibold">
               <h1 className="text-white text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -561,7 +565,7 @@ function Host() {
         </div>
       </div>
       <div className="bg-black w-full">
-        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1rem)] p-[20px]">
+        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1.2rem)] p-[20px] font-bold">
           Copyright 2025 - Todos os direitos Reservados TopDns
         </h1>
       </div>

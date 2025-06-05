@@ -25,26 +25,6 @@
   }
 }
 
-@media (min-width: 858px) and (max-width: 1131px) {
-  .control22 {
-    margin-top: 30px;
-  }
-}
-@media (min-width: 800px) and (max-width: 857px) {
-  .control22 {
-    margin-top: 30px;
-  }
-}
-@media (min-width: 618px) and (max-width: 799px) {
-  .control22 {
-    margin-top: 0px;
-  }
-}
-@media (min-width: 360px) and (max-width: 617px) {
-  .control22 {
-    margin-top: 0px;
-  }
-}
 @media (min-width: 360px) and (max-width: 800px) {
   .imagemm {
     height: 80vh;
@@ -68,7 +48,7 @@
     width: 30vw;
   }
 }
-@media (min-width: 570px) and (max-width: 799px) {
+@media (min-width: 360px) and (max-width: 1920px) {
   .buttonn2 {
     font-size: 1rem;
     width: 160px;
@@ -105,4 +85,28 @@
   .register2 {
     font-size: 0.6em;
   }
+}
+@media (min-width: 360px) and (max-width: 386px) {
+  .register {
+    font-size: 1em;
+    margin-bottom: 1px;
+  }
+}
+@media (min-width: 360px) and (max-width: 386px) {
+  .register2 {
+    font-size: 0.4em;
+  }
+}
+/* Custom Swiper Pagination */
+
+.swiper-pagination-bullet {
+  background-color: #f97316 !important; /* Tailwind orange-500 */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ea580c !important; /* Tailwind orange-600 */
+}
+.swiper-slide {
+  padding-bottom: 40px;
 }
