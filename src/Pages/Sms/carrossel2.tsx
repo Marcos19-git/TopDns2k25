@@ -80,7 +80,7 @@ function Carrossel2() {
                 </div>
               </div>
               <div className="bg-purple-950 rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-center items-center text-white font-bold">
-                <h1 className="text-xl text-[2.5em]">ASSINE</h1>
+                <h1 className="text-xl ">ASSINE</h1>
               </div>
             </div>
           </SwiperSlide>

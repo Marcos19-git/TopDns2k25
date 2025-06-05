@@ -89,7 +89,7 @@ function Sms() {
         <Carrossel2 />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[65vw]   border-[3px]  border-amber-400 rounded-[50px] hidden lg:flex flex-wrap">
+        <div className="eid2 w-[65vw]   border-[3px]  border-orange-400 rounded-[50px] hidden lg:flex flex-wrap">
           <div className="basic2 p-4 w-[16.1vw] rounded-tl-[50px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
             <div className="grid">
               <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
@@ -134,26 +134,26 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full  hidden lg:flex">
-            <div className="border-r p-2  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 font-semibold">
+            <div className="border-r p-3  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
 
-            <div className="border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="p-2 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
@@ -161,46 +161,46 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex border-2 rounded-[50px] border-orange-500  bg-white h-[130px]  ">
-            <div className="border p-5 text-[clamp(0.6rem,1.3vw,1.3rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
-              <h1 className="h-[15px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.5rem)] ">0,21</h2>
+            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
+              <h1 className="h-[0px]">VALOR POR SMS</h1>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,1.3vw,1.3rem)] bg-purple-900 text-center w-[23vw]     text-orange-500 font-semibold">
-              <h1 className="h-[15px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.5rem)] ">0,21</h2>
+            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]     text-orange-500 font-semibold">
+              <h1 className="h-[0px]">VALOR POR SMS</h1>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,1.3vw,1.3rem)] bg-purple-900 text-center w-[23vw]    text-white font-semibold">
-              <h1 className="h-[15px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.5rem)] ">0,21</h2>
+            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]    text-white font-semibold">
+              <h1 className="h-[0px]">VALOR POR SMS</h1>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,1.3vw,1.3rem)] bg-purple-900 text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
-              <h1 className="h-[15px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.5rem)] ">0,21</h2>
+            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
+              <h1 className="h-[0px]">VALOR POR SMS</h1>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex">
             <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
               <h1 className="h-[12px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.4rem)] ">63,00</h2>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
             <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
               <h1 className="h-[12px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.4rem)] ">63,00</h2>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
             <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
               <h1 className="h-[12px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.4rem)] ">63,00</h2>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
             <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
               <h1 className="h-[12px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,3vw,3.4rem)] ">63,00</h2>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
           </div>
 
           <div className="w-full hidden lg:flex bg-purple-900 rounded-[50px] h-[110px] border-2 border-orange-500">
             <div className="border-l p-2 text-center bg-purple-900  rounded-tl-[50px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
-              <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,2.8vw,2.8rem)]">
-                VALORES
+              <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold">
+                ASSINE
               </h1>
             </div>
             <div className="border-l   hidden lg:flex  p-3 text-center  w-[23vw]   justify-center items-center  text-gray-800 ">
