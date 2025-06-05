@@ -27,8 +27,7 @@ function Sms() {
               {/* Botões permanecem iguais */}
               <div className="flex justify-center  w-full">
                 <a
-                  href="https://topdns.com.br/hospedagem"
-                  target="_blank"
+                  href="https://novo.topdns.com.br/hospedagem"
                   rel="noopener noreferrer"
                 >
                   <button
@@ -39,8 +38,7 @@ function Sms() {
                   </button>
                 </a>
                 <a
-                  href="https://topdns.com.br/topsms"
-                  target="_blank"
+                  href="https://novo.topdns.com.br/sms"
                   rel="noopener noreferrer"
                 >
                   <button
@@ -52,7 +50,6 @@ function Sms() {
                 </a>
                 <a
                   href="https://topdns.com.br/assine"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button
@@ -163,7 +160,7 @@ function Sms() {
               outros.
             </div>
           </div>
-          <div className="w-[100vw] md:w-full hidden lg:flex bg-white h-[130px]  ">
+          <div className="w-[100vw] md:w-full hidden lg:flex border-2 rounded-[50px] border-orange-500  bg-white h-[130px]  ">
             <div className="border p-5 text-[clamp(0.6rem,1.3vw,1.3rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
               <h1 className="h-[15px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,3vw,3.5rem)] ">0,21</h2>

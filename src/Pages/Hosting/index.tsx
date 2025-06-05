@@ -77,7 +77,6 @@ function Host() {
               <div className="flex justify-center  w-full">
                 <a
                   href="https://novo.topdns.com.br/hospedagem"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button
@@ -89,7 +88,6 @@ function Host() {
                 </a>
                 <a
                   href="https://novo.topdns.com.br/sms"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <button
@@ -100,8 +98,7 @@ function Host() {
                   </button>
                 </a>
                 <a
-                  href="https://topdns.com.br/assine"
-                  target="_blank"
+                  href="https://novo.topdns.com.br/assine"
                   rel="noopener noreferrer"
                 >
                   <button

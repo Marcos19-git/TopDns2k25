@@ -60,7 +60,7 @@ function Carrossel2() {
                   <h2>{slide.subtitulo}</h2>
                 </div>
               </div>
-              <div className="flex  h-[120px] justify-center items-center ">
+              <div className="flex  h-[120px] p-3  justify-center items-center ">
                 <div className="bg-white    grid  text-center text-gray-400 font-bold w-full">
                   <h2>{slide.texto}</h2>
                 </div>
@@ -80,7 +80,7 @@ function Carrossel2() {
                 </div>
               </div>
               <div className="bg-purple-950 rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-center items-center text-white font-bold">
-                <h1 className="text-xl text-[2.2em]">ASSINE</h1>
+                <h1 className="text-xl text-[2.5em]">ASSINE</h1>
               </div>
             </div>
           </SwiperSlide>

@@ -63,7 +63,7 @@ function Carrossel() {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="w-full border-4 border-orange-400 rounded-[50px]  bg-white ">
+            <div className="w-full border-4 border-amber-400 rounded-[50px]  bg-white ">
               <div className="flex bg-purple-900 h-[120px] rounded-tr-[44px] rounded-tl-[44px]">
                 <div className="bg-purple-900 rounded-[44px] p-3  text-center text-white font-bold w-[60vw] flex justify-center items-center">
                   <h2 className="text-[0.9rem]">
