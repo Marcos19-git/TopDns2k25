@@ -7,7 +7,7 @@ import Carrossel2 from "./carrossel2";
 import Footer from "../Footer/index";
 function Sms() {
   return (
-    <div className="w-full h-[100vh] overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <div className="w-full grid relative">
         <img className=" h-[95vh] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
@@ -131,26 +131,26 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full  hidden lg:flex">
-            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 ">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
 
-            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 ">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 ">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="p-3 text-[clamp(0.6rem,1.3vw,1rem)] pt-[20px] pb-[20px]   text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="p-3 text-[clamp(0.6rem,1.3vw,1rem)] pt-[20px] pb-[20px]   text-center w-[23vw] flex justify-center items-center text-gray-400 ">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
@@ -176,20 +176,20 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex">
-            <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
-              <h1 className="h-[12px]">VALOR POR PACOTE</h1>
+            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
+              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
               <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
-            <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
-              <h1 className="h-[12px]">VALOR POR PACOTE</h1>
+            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
+              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
               <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
-            <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
-              <h1 className="h-[12px]">VALOR POR PACOTE</h1>
+            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
+              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
               <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
-            <div className="border p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
-              <h1 className="h-[12px]">VALOR POR PACOTE</h1>
+            <div className=" p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
+              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
               <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
             </div>
           </div>

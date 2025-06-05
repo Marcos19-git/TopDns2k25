@@ -132,7 +132,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-black w-full">
-        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1rem)] p-[20px] font-bold">
+        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1.2rem)] p-[20px] font-bold">
           Copyright 2025 - Todos os direitos Reservados TopDns
         </h1>
       </div>
