@@ -1,13 +1,10 @@
 import ImgHeader from "../Hosting/Images/Hospedagem_01.png";
 import Logo03 from "../Images/logo_03.avif";
-import Rodape1 from "..//Images/Home_51.avif";
-import Rodape2 from "../Images/Home_53.avif";
-import Rodape3 from "../Images/Home_55.avif";
-import Rodape4 from "../Images/Home_58.avif";
-import Twitter from "../Images/icon-twitter.avif";
+
 import "./style.css";
 import "../Hosting/style.css";
 import Carrossel2 from "./carrossel2";
+import Footer from "../Footer/index";
 function Sms() {
   return (
     <div className="w-full h-[100vh] overflow-x-hidden">
@@ -69,15 +66,15 @@ function Sms() {
               h-full
              border-2 border-[#ff8400] p-8 bg-[#ff8623] transition-all duration-200 ease-in-out rounded-[40px]"
           >
-            <h1 className="items-center text-purple-800  text-[2.3em] text-center">
+            <h1 className="items-center text-purple-800  text-[2.5em] text-center">
               CONHEÇA O TOPSMS
             </h1>
-            <h2 className="w-full text-center  text-white font-bold text-[1.3em] pt-[20px]">
+            <h2 className="w-full text-center  text-white  text-[1.3em] pt-[20px]">
               Uma plataforma de envio de mensagem via SMS ( sigla de Short
               Message Service, que em português significa Serviço de Mensagens
               Curtas ).
             </h2>
-            <h2 className="w-full text-center text-white font-bold text-[1.3em] pt-[0px] pb-[10px]">
+            <h2 className="w-full text-center text-white  text-[1.3em] pt-[0px] pb-[10px]">
               Uma ferramenta desenvolvida para quem quer e precisa de facilidade
               e praticidade. Melhora, de forma eficiente e dinâmica, a
               comunicação com seus clientes.
@@ -90,7 +87,7 @@ function Sms() {
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
         <div className="eid2 w-[65vw]   border-[3px]  border-orange-400 rounded-[50px] hidden lg:flex flex-wrap">
-          <div className="basic2 p-4 w-[16.1vw] rounded-tl-[50px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
+          <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
             <div className="grid">
               <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                 TOP BASIC
@@ -134,26 +131,26 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full  hidden lg:flex">
-            <div className="border-r p-3  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center flex justify-center items-center w-[23vw]  text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
 
-            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-            <div className="p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
+            <div className="p-3 text-[clamp(0.6rem,1.3vw,1rem)] pt-[20px] pb-[20px]   text-center w-[23vw] flex justify-center items-center text-gray-400 font-semibold">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
               Médicas, Assistências técnicas, escolas de Educação infantil e
@@ -161,19 +158,19 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex border-2 rounded-[50px] border-orange-500  bg-white h-[130px]  ">
-            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]     text-orange-500 font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]     text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]    text-white font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]    text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
+            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
@@ -222,91 +219,8 @@ function Sms() {
           </div>
         </div>
       </div>
-      <div className="flex w-full justify-center p-[70px] bg-[#ff8400]">
-        <div className="controldivfooter flex justify-center flex-wrap gap-[80px] gap-y-[40px] max-sm:grid ">
-          {/* Telefone */}
-          <div className="hover:opacity-50">
-            <a
-              href="tel:6632110010"
-              className="flex justify-center"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                className="flex justify-center w-[50px] h-[50px]"
-                src={Rodape1}
-              />
-            </a>
-            <p className="tell  scale-y-150 flex mt-[17px] font-semibold text-[clamp(0.8rem,_4vw,_0.9rem)] text-white justify-center cursor-pointer">
-              (66) 3211-0010
-            </p>
-          </div>
-
-          {/* Email */}
-          <div className="hover:opacity-50">
-            <a
-              className="flex justify-center"
-              href="mailto:COMERCIAL@TOPSAPP.COM.BR"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="w-[50px] h-[50px]" src={Rodape2} />
-            </a>
-            <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-              COMERCIAL@TOPSAPP.COM.BR
-            </p>
-          </div>
-
-          {/* Facebook */}
-          <div className="hover:opacity-50 lg:ml-[10px]">
-            <a
-              className="flex justify-center w-full"
-              href="https://www.facebook.com/topsapp10"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="w-[50px] h-[50px]" src={Rodape3} />
-            </a>
-            <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] font-semibold justify-center text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-              FACEBOOK
-            </p>
-          </div>
-
-          {/* Instagram */}
-          <div className="hover:opacity-50 lg:ml-[30px]">
-            <a
-              className="flex justify-center"
-              href="https://www.instagram.com/topsapp10/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="w-[50px] h-[50px]" src={Rodape4} />
-            </a>
-            <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-              INSTAGRAM
-            </p>
-          </div>
-
-          {/* Twitter */}
-          <div className="hover:opacity-50 lg:ml-[30px]">
-            <a
-              className="flex justify-center"
-              href="https://twitter.com/topsapp"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img className="w-[60px] h-[50px]" src={Twitter} />
-            </a>
-            <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] text-white font-semibold justify-center text-[clamp(0.8rem,_4vw,_0.7rem)]">
-              TWITTER
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="bg-black w-full">
-        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1.2rem)] p-[20px] font-bold">
-          Copyright 2025 - Todos os direitos Reservados TopDns
-        </h1>
+      <div>
+        <Footer />
       </div>
     </div>
   );
