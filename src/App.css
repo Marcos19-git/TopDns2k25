@@ -21,12 +21,9 @@ html {
     margin-left: 10px;
   }
 }
-
 @font-face {
   font-family: "Big Noodle Titling";
-  src: url("./fonts/big_noodle_titling_oblique.ttf") format("woff2"),
-    url("./fonts/big_noodle_titling_oblique.ttf") format("woff"),
-    url("./fonts/big_noodle_titling_oblique.txt") format("truetype");
+  src: url("./fonts/big_noodle_titling_oblique.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;

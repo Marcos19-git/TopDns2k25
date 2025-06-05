@@ -66,7 +66,7 @@ function Header() {
               HOSPEDAGEM
             </button>
           </a>
-          <a href="https://topdns.com.br/topsms" target="_blank">
+          <a href="https://novo.topdns.com.br/sms" target="_blank">
             <button
               title="TOPSMS"
               className="buttonorange bg-[#ff8400] min-w-[60px] hover:bg-orange-700 text-[clamp(0.3em,1vw,1.3em)]  text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4 "

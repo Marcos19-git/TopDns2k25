@@ -8,7 +8,7 @@ import Rodape3 from "../Images/Home_55.avif";
 import Rodape4 from "../Images/Home_58.avif";
 import Twitter from "../Images/icon-twitter.avif";
 import "./style.css";
-import Carrossel from "./carrossel.tsx";
+import Carrossel from "./carrossel";
 
 function Host() {
   const [domain, setDomain] = useState("");
@@ -76,7 +76,7 @@ function Host() {
               {/* Botões permanecem iguais */}
               <div className="flex justify-center  w-full">
                 <a
-                  href="https://topdns.com.br/hospedagem"
+                  href="https://novo.topdns.com.br/hospedagem"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -88,7 +88,7 @@ function Host() {
                   </button>
                 </a>
                 <a
-                  href="https://topdns.com.br/topsms"
+                  href="https://novo.topdns.com.br/sms"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
