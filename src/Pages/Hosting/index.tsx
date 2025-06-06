@@ -167,12 +167,12 @@ function Host() {
                 loading || modalOpen ? "mt-[5px]" : "mt-[20px]"
               }`}
             >
-              <div className=" contedballon ballonconted bg-[#e8eaec] cursor-default p-[10px] pl-[10px] pr-[10px]  pb-[10px]  gap-[40px] flex rounded-[15px] transition-all duration-200 ease-in-out">
+              <div className=" contedballon ballonconted bg-[#e8eaec] cursor-default pl-[30px] pr-[30px] pt-[10px] pb-[10px]  gap-[40px] flex rounded-[15px] transition-all duration-200 ease-in-out">
                 <div className="wrap22 text-[0.8em] pl-[20px] p-1 pr-[10px]">
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
                 </div>
-                <div className="mititle  cursor-default gap-[35px] flex items-center transition-all duration-200 ease-in-out ">
+                <div className="mititle aa222 cursor-default  gap-[25px] flex items-center transition-all duration-200 ease-in-out ">
                   <span>.com.br</span>
                   <span>.com</span>
                   <span>.net</span>
