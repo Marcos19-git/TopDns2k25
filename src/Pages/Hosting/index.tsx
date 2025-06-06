@@ -64,10 +64,12 @@ function Host() {
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className=" text-orange-500 text-center p-10 text-[clamp(2em,3.2vw,3.2em)] font-bold ">
-                SMS EM GRANDES QUANTIDADES
+              <h1 className=" text-orange-500 text-center  text-[clamp(2em,3.4vw,3.4em)] font-bold ">
+                REGISTRO DE DOMINIO
               </h1>
-
+              <h2 className="text-white text-center  text-[clamp(0.8em,1.2vw,1.2em)] font-bold pb-[50px] ">
+                REGISTRE SEU DOMINIO E GARANTA O ENDEREÇO DO SEU SITE
+              </h2>
               {/* Botões permanecem iguais */}
               <div className="flex justify-center  w-full">
                 <a
