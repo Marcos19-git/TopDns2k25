@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 // @ts-ignore
 import "swiper/css";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 // @ts-ignore
 import "swiper/css/pagination";
 import "./index";
@@ -58,20 +58,25 @@ function Carrossel() {
         spaceBetween={200}
         slidesPerView={1} // só 1 slide visível por vez
         pagination={{ clickable: true }}
-        modules={[Pagination]}
-        className="w-full max-w-[80vw]   "
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        speed={2000}
+        modules={[Pagination, Autoplay]}
+        className="w-full max-w-[80vw] "
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="w-full border-4 border-amber-400 rounded-[50px]  bg-white ">
               <div className="flex bg-purple-900 h-[120px] rounded-tr-[44px] w-full  rounded-tl-[44px]">
-                <div className="bg-purple-900 rounded-[44px]   p-3  text-center text-white font-bold  flex justify-center items-center">
+                <div className="bg-purple-900 rounded-[44px] w-[44vw]  p-3  text-center text-white font-bold  flex justify-center items-center">
                   <h2 className="text-[0.9rem]">
                     CONFIRA AS FERRAMENTAS <br /> E VANTAGENS DOS PLANOS
                   </h2>
                 </div>
 
-                <div className="bg-orange-400 rounded-l-[40px] w-[200px]  rounded-tr-[40px] p-4 grid  text-center text-white font-bold ">
+                <div className="bg-orange-400 rounded-l-[40px]  w-full rounded-tr-[40px] p-4 grid  text-center text-white font-bold ">
                   <h1 className="text-lg  h-[2px] mt-[10px] md:text-xl">TOP</h1>
                   <h2 className="text-[1.4em] h-[30px] md:text-3xl">
                     {slide.titulo}

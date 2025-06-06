@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 // @ts-ignore
 import "swiper/css";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 // @ts-ignore
 import "swiper/css/pagination";
 import "./index";
@@ -48,8 +48,13 @@ function Carrossel2() {
         spaceBetween={200}
         slidesPerView={1} // só 1 slide visível por vez
         pagination={{ clickable: true }}
-        modules={[Pagination]}
-        className="w-full max-w-[80vw]   "
+        autoplay={{
+          delay: 1000,
+          disableOnInteraction: false,
+        }}
+        speed={2000}
+        modules={[Pagination, Autoplay]}
+        className="w-full max-w-[80vw] "
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>

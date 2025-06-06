@@ -199,7 +199,7 @@ function Host() {
                   TOP
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                  BASICO
+                  BÁSICO
                 </h2>
               </div>
             </div>
@@ -209,7 +209,7 @@ function Host() {
                   TOP
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                  BASICO
+                  BÁSICO
                 </h2>
               </div>
             </div>
@@ -219,7 +219,7 @@ function Host() {
                   TOP
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                  BASICO
+                  BÁSICO
                 </h2>
               </div>
             </div>
@@ -229,7 +229,7 @@ function Host() {
                   TOP
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                  BASICO
+                  BÁSICO
                 </h2>
               </div>
             </div>
@@ -240,7 +240,7 @@ function Host() {
                     TOP
                   </h1>
                   <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                    BASICO
+                    BÁSICO
                   </h2>
                 </div>
               </div>
