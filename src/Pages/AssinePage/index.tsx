@@ -1,5 +1,5 @@
 import "./style.css";
-import Assine from "../Images/Assine_01.png";
+import Assine from "../Hosting/Images/Hospedagem_01.png";
 import Logo from "../Images/logo_03.avif";
 import Boll from "../Images/Layout_11.png";
 import Rodape1 from "../Images/Home_51.avif";
@@ -151,8 +151,45 @@ function AssinePage() {
             alt=""
           />
         </div>
-        <img className="w-full" src={Assine} alt="" />
+        <div className="absolute flex w-full text-white h-full items-center justify-center">
+          <h1 className="text-[clamp(1rem,2.4vw,2.4rem)] font-bold text-center">
+            PREENCHA OS DADOS ABAIXO CORRETAMENTE
+          </h1>
+        </div>
+        <img className="w-full h-[800px]" src={Assine} alt="" />
+        <div className="absolute mt-[80px] flex h-full w-full justify-center items-center">
+          <div className="flex justify-center  w-full">
+            <a
+              href="https://novo.topdns.com.br/hospedagem"
+              rel="noopener noreferrer"
+            >
+              <button
+                title="HOSPEDAGEM"
+                className=" buttonorange22 bg-[#ff8400] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+              >
+                HOSPEDAGEM
+              </button>
+            </a>
+            <a href="https://novo.topdns.com.br/sms" rel="noopener noreferrer">
+              <button
+                title="TOPSMS"
+                className=" bg-[#ff8400] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+              >
+                TOPSMS
+              </button>
+            </a>
+            <a href="https://topdns.com.br/assine" rel="noopener noreferrer">
+              <button
+                title="ASSINE"
+                className=" bg-[#ff8400] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+              >
+                ASSINE
+              </button>
+            </a>
+          </div>
+        </div>
       </div>
+
       <main className="w-full pt-[40px] pb-[40px] grid justify-items-center">
         <img className="h-[60px] w-[50px]" src={Boll} alt="" />
         <h1 className="p-4  text-[25px]">ASSINE</h1>

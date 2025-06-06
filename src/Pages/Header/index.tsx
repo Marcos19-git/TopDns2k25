@@ -74,7 +74,7 @@ function Header() {
               TOPSMS
             </button>
           </a>
-          <a href="https://novo.topdns.com.br/assine">
+          <a href="https://topdns.com.br/assine">
             <button
               title="ASSINE"
               className="buttonorange bg-[#ff8400] hover:bg-orange-700  min-w-[60px] text-[clamp(0.3em,1vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)]  font-bold py-2 px-4  "
