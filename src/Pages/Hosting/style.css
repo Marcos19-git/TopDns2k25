@@ -55,48 +55,7 @@
     transform: translateX(10px);
   }
 }
-@media (min-width: 672px) and (max-width: 799px) {
-  .register {
-    font-size: 3em;
-  }
-}
-@media (min-width: 672px) and (max-width: 799px) {
-  .register2 {
-    font-size: 1.1em;
-  }
-}
-@media (min-width: 454px) and (max-width: 671px) {
-  .register {
-    font-size: 2em;
-  }
-}
-@media (min-width: 454px) and (max-width: 671px) {
-  .register2 {
-    font-size: 0.8em;
-  }
-}
-@media (min-width: 387px) and (max-width: 453px) {
-  .register {
-    font-size: 1.7em;
-    margin-bottom: 1px;
-  }
-}
-@media (min-width: 387px) and (max-width: 453px) {
-  .register2 {
-    font-size: 0.6em;
-  }
-}
-@media (min-width: 360px) and (max-width: 386px) {
-  .register {
-    font-size: 1em;
-    margin-bottom: 1px;
-  }
-}
-@media (min-width: 360px) and (max-width: 386px) {
-  .register2 {
-    font-size: 0.4em;
-  }
-}
+
 /* Custom Swiper Pagination */
 
 .swiper-pagination-bullet {

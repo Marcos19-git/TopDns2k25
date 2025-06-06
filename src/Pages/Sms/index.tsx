@@ -11,13 +11,13 @@ function Sms() {
       <div className="w-full grid relative">
         <img className=" h-[95vh] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
-          <img className="w-[400px] p-[20px]" src={Logo03} alt="" />
+          <img className="w-[350px] p-[20px]" src={Logo03} alt="" />
         </div>
         <div className="absolute flex h-full w-full justify-center items-center">
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className="register text-orange-500 text-center p-10 text-[clamp(0.3em,5vw,3.2em)] font-bold ">
+              <h1 className=" text-orange-500 text-center p-10 text-[clamp(2em,3.2vw,3.2em)]  font-bold ">
                 SMS EM GRANDES QUANTIDADES
               </h1>
 
@@ -29,7 +29,7 @@ function Sms() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className="buttonorange buttonn2 buttonorange22 bg-[#ff8400] min-w-[80px] text-[clamp(0.3em,1vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22 bg-[#ff8400] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -40,7 +40,7 @@ function Sms() {
                 >
                   <button
                     title="TOPSMS"
-                    className="buttonorange buttonn2 bg-[#ff8400] min-w-[60px] hover:bg-orange-700 text-[clamp(0.3em,1vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#ff8400] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -51,7 +51,7 @@ function Sms() {
                 >
                   <button
                     title="ASSINE"
-                    className="buttonorange buttonn2 bg-[#ff8400] hover:bg-orange-700 min-w-[60px] text-[clamp(0.3em,1vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+                    className=" bg-[#ff8400] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
                   >
                     ASSINE
                   </button>
@@ -86,47 +86,49 @@ function Sms() {
         <Carrossel2 />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[65vw]   border-[3px]  border-orange-400 rounded-[50px] hidden lg:flex flex-wrap">
-          <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
-            <div className="grid">
-              <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
-                TOP BASIC
-              </h1>
-              <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                300 SMS
-              </h2>
+        <div className="eid2 w-[65vw]   border-[3px]  border-orange-400 rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
+          <div className="flex w-full bg-orange-400 rounded-tr-[40px] rounded-tl-[40px] rounded-br-[40px] rounded-bl-[40px]">
+            <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
+              <div className="grid">
+                <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                  TOP BASIC
+                </h1>
+                <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
+                  300 SMS
+                </h2>
+              </div>
             </div>
-          </div>
-          <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden lg:flex justify-center  items-center text-gray-800 ">
-            <div className="grid">
-              <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
-                TOP PLUS
-              </h1>
-              <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                600 SMS
-              </h2>
+            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden lg:flex justify-center  items-center text-gray-800 ">
+              <div className="grid">
+                <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                  TOP PLUS
+                </h1>
+                <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
+                  600 SMS
+                </h2>
+              </div>
             </div>
-          </div>
 
-          <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden  lg:flex justify-center items-center text-gray-800 ">
-            <div className="grid">
-              <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
-                TOP ELITE
-              </h1>
-              <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                1.000 SMS
-              </h2>
-            </div>
-          </div>
-          <div className="grid">
-            <div className="basic2 border-l p-2 w-[16.1vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden  lg:flex justify-center items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP ELITE
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
-                  3.000 SMS
+                  1.000 SMS
                 </h2>
+              </div>
+            </div>
+            <div className="grid">
+              <div className="basic2 border-l p-2 w-[16.1vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
+                <div className="grid">
+                  <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                    TOP ELITE
+                  </h1>
+                  <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
+                    3.000 SMS
+                  </h2>
+                </div>
               </div>
             </div>
           </div>

@@ -57,18 +57,17 @@ function Host() {
       <div className="w-full grid relative">
         <img className="imagemm h-[95vh] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
-          <img className="w-[300px] p-[20px]" src={Logo03} alt="" />
+          <img className="w-[350px] p-[20px]" src={Logo03} alt="" />
         </div>
         <div className="absolute flex h-full w-full justify-center items-center">
+          {/* Aqui, envolva os títulos em uma div com classes responsivas */}
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className="register text-orange-500 text-center mb-[-14px] text-[clamp(0.3em,5vw,3em)] font-bold ">
-                REGISTRO DE DOMINIO
+              <h1 className=" text-orange-500 text-center p-10 text-[clamp(2em,3.2vw,3.2em)] font-bold ">
+                SMS EM GRANDES QUANTIDADES
               </h1>
-              <h2 className="register2 text-white text-center text-[clamp(0.3em,2vw,1.1em)] mb-[20px]  ">
-                REGISTRE SEU DOMINIO E GARANTA O ENDEREÇO DE SEU SITE
-              </h2>
+
               {/* Botões permanecem iguais */}
               <div className="flex justify-center  w-full">
                 <a
@@ -77,7 +76,7 @@ function Host() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className="buttonorange buttonn2 buttonorange22 bg-[#ff8400] min-w-[80px] text-[clamp(0.3em,1vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22 bg-[#ff8400] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -88,18 +87,18 @@ function Host() {
                 >
                   <button
                     title="TOPSMS"
-                    className="buttonorange buttonn2 bg-[#ff8400] min-w-[60px] hover:bg-orange-700 text-[clamp(0.3em,1vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#ff8400] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
                 </a>
                 <a
-                  href="https://novo.topdns.com.br/assine"
+                  href="https://topdns.com.br/assine"
                   rel="noopener noreferrer"
                 >
                   <button
                     title="ASSINE"
-                    className="buttonorange buttonn2 bg-[#ff8400] hover:bg-orange-700 min-w-[60px] text-[clamp(0.3em,1vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+                    className=" bg-[#ff8400] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
                   >
                     ASSINE
                   </button>
@@ -187,7 +186,7 @@ function Host() {
         <Carrossel />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[70vw]   border-[3px]  border-orange-400 rounded-[50px] hidden lg:flex flex-wrap">
+        <div className="eid2 w-[70vw]  border-[3px]  border-orange-400 rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="w-full  hidden lg:flex bg-purple-900 border-orange-400 border-b-[3px] rounded-[50px] ">
             <div className="basic3 p-2  text-center h-[13vh] bg-purple-900 hidden lg:flex justify-center w-[20vw] items-center rounded-bl-[50px] border-orange-400 rounded-tl-[48px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1vw,1em)]  ">
