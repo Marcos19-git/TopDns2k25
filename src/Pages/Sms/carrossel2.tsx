@@ -82,7 +82,7 @@ function Carrossel2() {
                   <h2 className="h-[20px] text-[30px]">{slide.valorpacote}</h2>
                 </div>
               </div>
-              <div className="bg-purple-950 rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-center items-center text-white font-bold">
+              <div className="bg-[#62357F] rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-center items-center text-white font-bold">
                 <h1 className="text-[2em] ">ASSINE</h1>
               </div>
             </div>

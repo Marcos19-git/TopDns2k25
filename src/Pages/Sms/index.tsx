@@ -17,7 +17,7 @@ function Sms() {
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className=" text-orange-500 text-center p-10 text-[clamp(2em,3.2vw,3.2em)]  font-bold ">
+              <h1 className=" text-[#FF7800] text-center p-10 text-[clamp(2em,3.2vw,3.2em)]  font-bold ">
                 SMS EM GRANDES QUANTIDADES
               </h1>
 
@@ -29,7 +29,7 @@ function Sms() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className=" buttonorange22 bg-[#ff8400] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -40,7 +40,7 @@ function Sms() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#ff8400] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#FF7800] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -51,7 +51,7 @@ function Sms() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#ff8400] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+                    className=" bg-[#FF7800] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
                   >
                     ASSINE
                   </button>
@@ -64,7 +64,7 @@ function Sms() {
           <div
             className=" z-20 lg:w-[55vw] w-[100vw] 
               h-full
-             border-2 border-[#ff8400] p-8 bg-[#ff8623] transition-all duration-200 ease-in-out rounded-[40px]"
+             border-2 border-[#FF7800] p-8 bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px]"
           >
             <h1 className="items-center text-purple-800  text-[2.5em] text-center">
               CONHEÇA O TOPSMS
@@ -86,9 +86,9 @@ function Sms() {
         <Carrossel2 />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[65vw]   border-[3px]  border-orange-400 rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
-          <div className="flex w-full bg-orange-400 rounded-tr-[40px] rounded-tl-[40px] rounded-br-[40px] rounded-bl-[40px]">
-            <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-orange-400 justify-center items-center rounded-bl-[50px] text-center  bg-orange-400 text-gray-800 ">
+        <div className="eid2 w-[65vw]   border-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
+          <div className="flex w-full bg-[#FF7800] rounded-tr-[40px] rounded-tl-[40px] rounded-br-[40px] rounded-bl-[40px]">
+            <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-[#FF7800] justify-center items-center rounded-bl-[50px] text-center  bg-[#FF7800] text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP BASIC
@@ -98,7 +98,7 @@ function Sms() {
                 </h2>
               </div>
             </div>
-            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden lg:flex justify-center  items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-[#FF7800] hidden lg:flex justify-center  items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP PLUS
@@ -109,7 +109,7 @@ function Sms() {
               </div>
             </div>
 
-            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-orange-400 hidden  lg:flex justify-center items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-[#FF7800] hidden  lg:flex justify-center items-center text-gray-800 ">
               <div className="grid">
                 <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                   TOP ELITE
@@ -120,7 +120,7 @@ function Sms() {
               </div>
             </div>
             <div className="grid">
-              <div className="basic2 border-l p-2 w-[16.1vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
+              <div className="basic2 border-l p-2 w-[16.1vw] text-center  bg-[#FF7800] hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
                 <div className="grid">
                   <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                     TOP ELITE
@@ -160,19 +160,19 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex border-2 rounded-[50px] border-orange-500  bg-white h-[130px]  ">
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]     text-orange-500 font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]     text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]    text-white font-semibold">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]    text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-purple-900 text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
+            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
@@ -196,8 +196,8 @@ function Sms() {
             </div>
           </div>
 
-          <div className="w-full hidden lg:flex bg-purple-900 rounded-[50px] h-[110px] border-2 border-orange-500">
-            <div className="border-l p-2 text-center bg-purple-900  rounded-tl-[50px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
+          <div className="w-full hidden lg:flex bg-[#62357F] rounded-[50px] h-[110px] border-2 border-orange-500">
+            <div className="border-l p-2 text-center bg-[#62357F]  rounded-tl-[50px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
               <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>

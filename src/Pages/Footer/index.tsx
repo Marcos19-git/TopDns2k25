@@ -50,7 +50,7 @@ function Footer() {
 
   return (
     <section>
-      <div className="flex w-full justify-center p-[60px] bg-[#ff8400]">
+      <div className="flex w-full justify-center p-[60px] bg-[#FF7800]">
         <div className="controldivfooter flex justify-center flex-wrap gap-[80px] gap-y-[40px] max-sm:grid ">
           {/* Telefone */}
           <div className="hover:opacity-50">
@@ -132,7 +132,7 @@ function Footer() {
         </div>
       </div>
       <div className="bg-black w-full">
-        <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1.2rem)] p-[20px] font-bold">
+        <h1 className="bg-black text-[#FF7800] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1.2rem)] p-[20px] font-bold">
           Copyright 2025 - Todos os direitos Reservados TopDns
         </h1>
       </div>
