@@ -188,7 +188,7 @@ function Host() {
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
         <div className="eid2 w-[70vw]  border-[3px]  border-orange-400 rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="w-full  hidden lg:flex bg-purple-900 border-orange-400 border-b-[3px] rounded-[50px] ">
-            <div className="basic3 p-2  text-center h-[13vh] bg-purple-900 hidden lg:flex justify-center w-[20vw] items-center rounded-bl-[50px] border-orange-400 rounded-tl-[48px] text-gray-800 font-semibold">
+            <div className="basic3 p-2  text-center h-[13vh] bg-purple-900 hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[50px] border-orange-400 rounded-tl-[48px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1vw,1em)]  ">
                 CONFIRA AS FERRAMENTAS <br></br>E VANTAGENS DOS PLANOS
               </h2>
@@ -234,7 +234,7 @@ function Host() {
               </div>
             </div>
             <div className="grid">
-              <div className="basic2 border-l p-2 w-[10vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[48px] rounded-br-[50px] text-gray-800 ">
+              <div className="basic2 border-l p-2 w-[10vw] text-center  bg-orange-400 hidden lg:flex justify-center items-center rounded-tr-[44px] rounded-br-[46px] text-gray-800 ">
                 <div className="grid">
                   <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
                     TOP
