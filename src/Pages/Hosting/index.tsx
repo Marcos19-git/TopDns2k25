@@ -114,10 +114,10 @@ function Host() {
         <div className="control22  w-full mt-[-80px]  flex justify-center transition-all duration-200 ease-in-out">
           <div
             className={`divballoon ballondiv z-20 w-[850px] ${
-              loading || modalOpen ? "h-[290px]" : "h-[260px]"
-            } mt-[-130px] border-2 border-[#FF7800] bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px]`}
+              loading || modalOpen ? "h-[290px]" : "h-[270px]"
+            } mt-[-130px] border-2 border-[#FF7800] bg-[#FF7800]  transition-all duration-200 ease-in-out rounded-[40px]`}
           >
-            <div className="divtitle flex cursor-default justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2vw,1.975em)] text-black transition-all duration-200 ease-in-out">
+            <div className="divtitle flex cursor-default justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2.3vw,2.3em)] text-black transition-all duration-200 ease-in-out">
               <h1 className="items-center text-center">PESQUISA DE DOMÍNIO</h1>
             </div>
             <div className="divplaceholder flex justify-center ">
@@ -167,12 +167,12 @@ function Host() {
                 loading || modalOpen ? "mt-[5px]" : "mt-[20px]"
               }`}
             >
-              <div className=" contedballon ballonconted bg-[#e8eaec] cursor-default pl-[30px] pr-[30px] pt-[10px] pb-[10px]  gap-[40px] flex rounded-[15px] transition-all duration-200 ease-in-out">
+              <div className=" contedballon ballonconted bg-[#e8eaec] cursor-default pl-[30px] pr-[30px]  pb-[10px]  gap-[40px] flex rounded-[15px] transition-all duration-200 ease-in-out">
                 <div className="wrap22 text-[0.8em] pl-[20px] p-1 pr-[10px]">
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
                 </div>
-                <div className="mititle cursor-default gap-[25px] flex items-center transition-all duration-200 ease-in-out ">
+                <div className="mititle aa222 cursor-default  gap-[25px] flex items-center transition-all duration-200 ease-in-out ">
                   <span>.com.br</span>
                   <span>.com</span>
                   <span>.net</span>
@@ -393,7 +393,7 @@ function Host() {
             </div>
           </div>
           <div className="w-full hidden lg:flex">
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
+            <div className="border-t border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
               NAO DISPONIVEL
             </div>
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
@@ -408,7 +408,7 @@ function Host() {
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
+            <div className="border-t border-l p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -
             </div>
           </div>
