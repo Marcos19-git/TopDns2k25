@@ -23,7 +23,7 @@ function Carrossel() {
       preco: "19,90",
     },
     {
-      titulo: "INTERMEDIÁRIO",
+      titulo: "MEDIO",
       vantagens: {
         "ESPAÇO EM DISCO": "50GB",
         "TRÁFEGO MENSAL": "100GB",
@@ -64,16 +64,16 @@ function Carrossel() {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="w-full border-4 border-amber-400 rounded-[50px]  bg-white ">
-              <div className="flex bg-purple-900 h-[120px] rounded-tr-[44px] rounded-tl-[44px]">
-                <div className="bg-purple-900 rounded-[44px] p-3  text-center text-white font-bold w-[60vw] flex justify-center items-center">
+              <div className="flex bg-purple-900 h-[120px] rounded-tr-[44px] w-full  rounded-tl-[44px]">
+                <div className="bg-purple-900 rounded-[44px]   p-3  text-center text-white font-bold  flex justify-center items-center">
                   <h2 className="text-[0.9rem]">
                     CONFIRA AS FERRAMENTAS <br /> E VANTAGENS DOS PLANOS
                   </h2>
                 </div>
 
-                <div className="bg-orange-400  rounded-l-[40px]  rounded-tr-[40px] p-4 grid  text-center text-white font-bold w-full">
+                <div className="bg-orange-400 rounded-l-[40px] w-[200px]  rounded-tr-[40px] p-4 grid  text-center text-white font-bold ">
                   <h1 className="text-lg  h-[2px] mt-[10px] md:text-xl">TOP</h1>
-                  <h2 className="text-2xl h-[30px] md:text-3xl">
+                  <h2 className="text-[1.4em] h-[30px] md:text-3xl">
                     {slide.titulo}
                   </h2>
                 </div>
@@ -91,10 +91,12 @@ function Carrossel() {
               ))}
 
               <div className="bg-purple-950 rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-between items-center text-white font-bold">
-                <h1 className="text-xl text-[2.2em]">VALORES</h1>
-                <div className="flex items-baseline text-3xl md:text4xl">
+                <h1 className="text-xl  text-[2.2em]">VALORES</h1>
+                <div className="flex items-center pl-[15px] text-3xl md:text4xl">
                   R${slide.preco}
-                  <span className="text-sm ml-1">/mês</span>
+                  <span className="text-sm ml-[4px] mt-[4px]  w-[50px]">
+                    /mês
+                  </span>
                 </div>
               </div>
             </div>

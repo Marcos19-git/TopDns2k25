@@ -9,7 +9,7 @@ function Sms() {
   return (
     <div className="overflow-x-hidden">
       <div className="w-full grid relative">
-        <img className=" h-[95vh] w-full" src={ImgHeader} alt="" />
+        <img className=" h-[850px] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
           <img className="w-[350px] p-[20px]" src={Logo03} alt="" />
         </div>
