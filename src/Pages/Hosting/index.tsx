@@ -191,7 +191,7 @@ function Host() {
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
         <div className="eid2 w-[70vw]  border-b-[px] border-t-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="w-full  hidden lg:flex bg-[#62357F]   rounded-[50px] ">
-            <div className="basic3 p-2  text-center h-[130px] bg-[#62357F] hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[44px] border-[#FF7800] border-b-[3px] rounded-tl-[46px] text-gray-800 font-semibold">
+            <div className="basic3 p-2  text-center h-[110px] bg-[#62357F] hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[44px] border-[#FF7800] border-b-[3px] rounded-tl-[46px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1.2vw,1.2em)]  ">
                 CONFIRA AS FERRAMENTAS <br></br>E VANTAGENS DOS PLANOS.
               </h2>
