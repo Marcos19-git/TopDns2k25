@@ -65,7 +65,7 @@ function Host() {
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
               <div className="grid">
-                <h1 className="m-0 text-[#FF7800] scale-y-125 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
+                <h1 className="registerr2  m-0 text-[#FF7800] scale-y-125 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
                   REGISTRO DE DOMÍNIO
                 </h1>
                 <h2 className="m-0 text-white pb-[30px]  scale-y-125 text-center text-[clamp(0.8em,1.3vw,1.3em)] font-bold leading-tight">
@@ -80,7 +80,7 @@ function Host() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className=" buttonorange22  scale-y-125 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.5vw,1.5em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white  py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -91,7 +91,7 @@ function Host() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#FF7800]  scale-y-125 min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white  py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -102,7 +102,7 @@ function Host() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#FF7800]  scale-y-125 hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
+                    className=" bg-[#FF7800]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)]  py-2 px-4 "
                   >
                     ASSINE
                   </button>
@@ -192,7 +192,7 @@ function Host() {
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
         <div className="eid2 w-[70vw]  border-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="w-full  hidden lg:flex bg-[#62357F]   rounded-[50px] ">
-            <div className="basic3 p-2  text-center h-[13vh] bg-[#62357F] hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[44px] border-[#FF7800] border-b-[3px] rounded-tl-[46px] text-gray-800 font-semibold">
+            <div className="basic3 p-2  text-center h-[130px] bg-[#62357F] hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[44px] border-[#FF7800] border-b-[3px] rounded-tl-[46px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1.2vw,1.2em)]  ">
                 CONFIRA AS FERRAMENTAS <br></br>E VANTAGENS DOS PLANOS.
               </h2>
@@ -334,7 +334,7 @@ function Host() {
           </div>
           <div className="w-[100vw] md:w-full flex">
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
-              DOMINIOS
+              DOMÍNIOS
             </div>
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               10
@@ -374,7 +374,7 @@ function Host() {
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex">
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw]  text-black font-semibold">
-              ANTIVIRUS
+              ANTI-VÍRUS
             </div>
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               99,9%
@@ -394,7 +394,7 @@ function Host() {
           </div>
           <div className="w-full hidden lg:flex">
             <div className="border-t border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
-              NAO DISPONIVEL
+              NÃO DISPONÍVEL
             </div>
             <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-gray-400 font-semibold">
               -

@@ -76,3 +76,9 @@
     gap: 28px;
   }
 }
+
+@media (max-width: 461px) {
+  .registerr2 {
+    margin-bottom: 20px;
+  }
+}

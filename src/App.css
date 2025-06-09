@@ -22,16 +22,8 @@ html {
   }
 }
 @font-face {
-  font-family: "Big Noodle Titling";
-  src: url("./fonts/big_noodle_titling_oblique.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "Winner Sans Cond";
+  src: url("./fonts//Winner-Sans-Cond-Regular.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Sprout Extra Bould";
-  src: url("./fonts/sprout-extrabold.ttf") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
 }

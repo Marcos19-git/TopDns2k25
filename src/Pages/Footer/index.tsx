@@ -65,7 +65,7 @@ function Footer() {
                 src={Rodape1}
               />
             </a>
-            <p className="  scale-y-150 flex mt-[20px]   text-white justify-center cursor-pointer text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  font-winner flex mt-[20px]   text-white justify-center cursor-pointer text-[clamp(0.8em,1.4vw,1.4em)] ">
               {contatos.telefone.tipo}
             </p>
           </div>
@@ -80,7 +80,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape2} />
             </a>
-            <p className="  scale-y-150 cursor-pointer flex mt-[20px] justify-center  text-white  text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  font-winner cursor-pointer flex mt-[20px] justify-center  text-white  text-[clamp(1.2em,1.4vw,1.4em)] ">
               {contatos.email.tipo}
             </p>
           </div>
@@ -95,7 +95,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape3} />
             </a>
-            <p className="  scale-y-150 cursor-pointer flex mt-[20px]  justify-center text-white  text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  font-winner cursor-pointer flex mt-[20px]  justify-center text-white  text-[clamp(1.2em,1.4vw,1.4em)] ">
               {contatos.facebook.tipo}
             </p>
           </div>
@@ -110,7 +110,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape4} />
             </a>
-            <p className="  scale-y-150 cursor-pointer flex mt-[20px] justify-center  text-white text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  font-winner cursor-pointer flex mt-[20px] justify-center  text-white text-[clamp(1.2em,1.4vw,1.4em)] ">
               {contatos.instagram.tipo}
             </p>
           </div>
@@ -125,7 +125,7 @@ function Footer() {
             >
               <img className="w-[60px] h-[50px]" src={Twitter} />
             </a>
-            <p className="  scale-y-150 cursor-pointer flex mt-[20px] text-white  justify-center  text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  font-winner cursor-pointer flex mt-[20px] text-white  justify-center  text-[clamp(1.2em,1.4vw,1.4em)] ">
               {contatos.twitter.tipo}
             </p>
           </div>

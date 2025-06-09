@@ -4,8 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "big-noodle": ['"Big Noodle Titling"', "sans-serif"],
-        "big-sprout": ['"Sprout Extra Bold"', "sans-serif"],
+        winner: ['"Winner Sans Cond"', "sans-serif"],
       },
     },
   },
