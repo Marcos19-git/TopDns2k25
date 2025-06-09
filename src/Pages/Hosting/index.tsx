@@ -80,7 +80,7 @@ function Host() {
                   >
                     <button
                       title="HOSPEDAGEM"
-                      className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-white  py-2 px-4"
+                      className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-r-[#FFA55E]   py-2 px-4"
                     >
                       HOSPEDAGEM
                     </button>
@@ -91,7 +91,7 @@ function Host() {
                   >
                     <button
                       title="TOPSMS"
-                      className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-white  py-2 px-4"
+                      className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-r-[#FFA55E]  py-2 px-4"
                     >
                       TOPSMS
                     </button>
@@ -125,7 +125,7 @@ function Host() {
               </div>
               <form className="flex" onSubmit={handleSubmit}>
                 <input
-                  className="tam w-[43vw] font-normal placeholder:text-[1.5em] placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
+                  className="tam w-[43vw] font-normal placeholder:text-[clamp(1rem,1.5vw,1.5rem)]  placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
                   name="dominio"
                   autoComplete="domain"
                   type="text"

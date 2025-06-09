@@ -61,7 +61,7 @@ function Header() {
           <a href="https://novo.topdns.com.br/hospedagem">
             <button
               title="HOSPEDAGEM"
-              className="buttonorange font-winner  buttonorange22  bg-[#ff8400] min-w-[80px] text-[clamp(0.3em,1.5vw,1.5em)]  hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)]  border-r-2 border-white  py-2 px-4    "
+              className="buttonorange font-winner  buttonorange22  bg-[#ff8400] min-w-[80px] text-[clamp(0.3em,1.5vw,1.5em)]  hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)]  border-r-2 border-r-[#FFA55E]  py-2 px-4    "
             >
               HOSPEDAGEM
             </button>
@@ -69,7 +69,7 @@ function Header() {
           <a href="https://novo.topdns.com.br/sms">
             <button
               title="TOPSMS"
-              className="buttonorange font-winner bg-[#ff8400] min-w-[60px] hover:bg-orange-700 text-[clamp(0.3em,1.5vw,1.5em)]  text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white  py-2 px-4 "
+              className="buttonorange font-winner bg-[#ff8400] min-w-[60px] hover:bg-orange-700 text-[clamp(0.3em,1.5vw,1.5em)]  text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-r-[#FFA55E] py-2 px-4 "
             >
               TOPSMS
             </button>
