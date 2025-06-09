@@ -159,8 +159,8 @@ function Sms() {
               outros.
             </div>
           </div>
-          <div className="w-[100vw] md:w-full hidden lg:flex border-2 rounded-[50px] border-orange-500  bg-white h-[130px]  ">
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tl-[50px] rounded-bl-[50px]  text-white font-semibold">
+          <div className="w-[100vw] md:w-full hidden lg:flex border-[4px] rounded-[50px] border-orange-500  bg-white h-[130px]  ">
+            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tl-[46px] rounded-bl-[46px]  text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
@@ -172,7 +172,7 @@ function Sms() {
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tr-[50px] rounded-br-[50px]  text-orange-500 font-semibold">
+            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tr-[46px] rounded-br-[46px]  text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
@@ -196,8 +196,8 @@ function Sms() {
             </div>
           </div>
 
-          <div className="w-full hidden lg:flex bg-[#62357F] rounded-[50px] h-[110px] border-2 border-orange-500">
-            <div className="border-l p-2 text-center bg-[#62357F]  rounded-tl-[50px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[48px]  text-gray-800 font-semibold">
+          <div className="w-full hidden lg:flex bg-[#62357F] rounded-[50px] h-[110px] border-[4px] border-orange-500">
+            <div className="border-l p-2 text-center bg-[#62357F]  rounded-tl-[46px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[46px]  text-gray-800 font-semibold">
               <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>

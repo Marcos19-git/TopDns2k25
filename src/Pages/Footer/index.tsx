@@ -65,7 +65,7 @@ function Footer() {
                 src={Rodape1}
               />
             </a>
-            <p className="  scale-y-150 flex mt-[17px]   text-white justify-center cursor-pointer text-[clamp(0.8em,1vw,1em)] font-bold">
+            <p className="  scale-y-150 flex mt-[20px]   text-white justify-center cursor-pointer text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.telefone.tipo}
             </p>
           </div>
