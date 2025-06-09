@@ -29,7 +29,7 @@ function Sms() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className=" buttonorange22 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22  scale-y-125 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -40,7 +40,7 @@ function Sms() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#FF7800] min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#FF7800]  scale-y-125 min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -51,7 +51,7 @@ function Sms() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#FF7800] hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
+                    className=" bg-[#FF7800]  scale-y-125 hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
                   >
                     ASSINE
                   </button>

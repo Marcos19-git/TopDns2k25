@@ -65,10 +65,10 @@ function Host() {
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
               <div className="grid">
-                <h1 className="m-0 text-[#FF7800] text-center text-[clamp(2em,4vw,4em)] font-bold leading-tight">
+                <h1 className="m-0 text-[#FF7800] scale-y-125 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
                   REGISTRO DE DOMÍNIO
                 </h1>
-                <h2 className="m-0 text-white pb-[30px] translate-y-[-10px] text-center text-[clamp(0.8em,1.4vw,1.4em)] font-bold leading-tight">
+                <h2 className="m-0 text-white pb-[30px]  scale-y-125 text-center text-[clamp(0.8em,1.3vw,1.3em)] font-bold leading-tight">
                   REGISTRE SEU DOMÍNIO E GARANTA O ENDEREÇO DO SEU SITE
                 </h2>
               </div>
@@ -80,7 +80,7 @@ function Host() {
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className=" buttonorange22 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" buttonorange22  scale-y-125 bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -91,7 +91,7 @@ function Host() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#FF7800] min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#FF7800]  scale-y-125 min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -102,7 +102,7 @@ function Host() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#FF7800] hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
+                    className=" bg-[#FF7800]  scale-y-125 hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
                   >
                     ASSINE
                   </button>
@@ -412,13 +412,13 @@ function Host() {
               -
             </div>
           </div>
-          <div className="w-full hidden lg:flex bg-[#42145F] rounded-[50px] h-[140px] border-[2px] border-orange-500">
+          <div className="w-full hidden lg:flex bg-[#42145F] rounded-[50px] h-[140px] border-[3px] border-orange-500">
             <div className=" p-2 b text-center bg-[#42145F]  rounded-tl-[48px] w-[30vw] hidden lg:flex  justify-center items-center rounded-bl-[44px]  text-gray-800 font-semibold">
               <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,2.8vw,2.8rem)]">
                 VALORES
               </h1>
             </div>
-            <div className=" border-orange-500  border-l-[3px]  hidden lg:flex  p-3 text-center bg-[#62357F]  rounded-l-[45px]   justify-center items-center  text-gray-800 w-[15.3vw]">
+            <div className=" border-orange-500 border-t-[2px] border-l-[4px] border-b-[2px]   hidden lg:flex  p-3 text-center bg-[#62357F]  rounded-l-[40px]   justify-center items-center  text-gray-800 w-[15.3vw]">
               <h1 className="text-white translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -431,7 +431,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="border-l-[2px]  border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
+            <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500  border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
               <h1 className="text-[#FF7800] translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -444,7 +444,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="border-l-[2px] border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F] [160px] justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
+            <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F] [160px] justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
               <h1 className="text-white translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -457,7 +457,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="border-l-[2px] border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
+            <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  justify-center items-center  text-gray-800 font-semibold w-[15.3vw]">
               <h1 className="text-[#FF7800] translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
@@ -470,7 +470,7 @@ function Host() {
                 </h2>
               </div>
             </div>
-            <div className="border-l-[2px] border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  [160px] rounded-tr-[50px] justify-center items-center  rounded-br-[48px] text-gray-800 font-semibold w-[15.3vw]">
+            <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-gray-400 hidden lg:flex p-2 text-center bg-[#62357F]  [160px] rounded-tr-[50px] justify-center items-center  rounded-br-[48px] text-gray-800 font-semibold w-[15.3vw]">
               <h1 className="text-white  tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
