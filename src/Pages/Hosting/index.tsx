@@ -61,9 +61,9 @@ function Host() {
         </div>
         <div className="absolute flex h-full w-full justify-center items-center">
           {/* Aqui, envolva os títulos em uma div com classes responsivas */}
-          <div className="grid">
+          <div className="grid ">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
-            <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
+            <div className="absolute top-[40%] left-[0%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[100%] px-4">
               <div className="grid">
                 <h1 className="registerr2  m-0 text-[#FF7800] scale-y-125 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
                   REGISTRO DE DOMÍNIO
@@ -71,62 +71,61 @@ function Host() {
                 <h2 className="m-0 text-white pb-[30px]  scale-y-125 text-center text-[clamp(0.8em,1.3vw,1.3em)] font-bold leading-tight">
                   REGISTRE SEU DOMÍNIO E GARANTA O ENDEREÇO DO SEU SITE
                 </h2>
-              </div>
-              {/* Botões permanecem iguais */}
-              <div className="flex justify-center ">
-                <a
-                  href="https://novo.topdns.com.br/hospedagem"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    title="HOSPEDAGEM"
-                    className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.5vw,1.5em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white  py-2 px-4"
+
+                {/* Botões permanecem iguais */}
+                <div className="flex justify-center pr-[20px]">
+                  <a
+                    href="https://novo.topdns.com.br/hospedagem"
+                    rel="noopener noreferrer"
                   >
-                    HOSPEDAGEM
-                  </button>
-                </a>
-                <a
-                  href="https://novo.topdns.com.br/sms"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    title="TOPSMS"
-                    className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white  py-2 px-4"
+                    <button
+                      title="HOSPEDAGEM"
+                      className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-white  py-2 px-4"
+                    >
+                      HOSPEDAGEM
+                    </button>
+                  </a>
+                  <a
+                    href="https://novo.topdns.com.br/sms"
+                    rel="noopener noreferrer"
                   >
-                    TOPSMS
-                  </button>
-                </a>
-                <a
-                  href="https://topdns.com.br/assine"
-                  rel="noopener noreferrer"
-                >
-                  <button
-                    title="ASSINE"
-                    className=" bg-[#FF7800]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)]  py-2 px-4 "
+                    <button
+                      title="TOPSMS"
+                      className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-white  py-2 px-4"
+                    >
+                      TOPSMS
+                    </button>
+                  </a>
+                  <a
+                    href="https://topdns.com.br/assine"
+                    rel="noopener noreferrer"
                   >
-                    ASSINE
-                  </button>
-                </a>
+                    <button
+                      title="ASSINE"
+                      className=" bg-[#FF7800]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,7vw,7em)]  py-2 px-4 "
+                    >
+                      ASSINE
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
         <div className="control22  w-full mt-[-80px]  flex justify-center transition-all duration-200 ease-in-out">
           <div
-            className={`divballoon ballondiv z-20 w-[850px] ${
-              loading || modalOpen ? "h-[290px]" : "h-[270px]"
-            } mt-[-130px] border-2 border-[#FF7800] bg-[#FF7800]  transition-all duration-200 ease-in-out rounded-[40px]`}
+            className={`divballoon ballondiv z-20 w-[70vw] mt-[-130px] border-2 border-[#FF7800] bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px] p-[30px] flex flex-col items-center`}
           >
-            <div className="divtitle flex cursor-default justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2.3vw,2.3em)] text-black transition-all duration-200 ease-in-out">
-              <h1 className="items-center text-center">PESQUISA DE DOMÍNIO</h1>
+            <div className="divtitle flex cursor-default w-full justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2.8vw,2.8em)] text-black transition-all duration-200 ease-in-out">
+              <h1 className="items-center ">PESQUISA DE DOMÍNIO</h1>
             </div>
             <div className="divplaceholder flex justify-center ">
-              <div className="wwwdiv cursor-default flex text-white text-[20px] text-center rounded-l-[10px] items-center bg-[#62357F] pr-[15px] pl-[15px]">
+              <div className="wwwdiv cursor-default text-white text-[clamp(1rem,1.4vw,1.4em)] w-[clamp(4em,5vw,5em)] flex justify-center items-center text-center rounded-l-[10px] bg-[#62357F]">
                 <h2 className="font-bold">WWW</h2>
               </div>
               <form className="flex" onSubmit={handleSubmit}>
                 <input
-                  className="tam w-[500px] font-normal placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
+                  className="tam w-[43vw] font-normal placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
                   name="dominio"
                   autoComplete="domain"
                   type="text"
@@ -136,11 +135,11 @@ function Host() {
                   placeholder="SEU DOMÍNIO"
                 />
 
-                <div className="orangediv flex ">
+                <div className="orangediv flex ml-[20px] ">
                   <button
                     type="submit"
                     id="MyButton"
-                    className="testediv  bg-[#62357F] pl-[15px] pr-[15px] text-white text-[20px] font-bold rounded-[0.3em]"
+                    className="testediv w-[clamp(5em,8vw,8em)] bg-[#62357F]  text-white text-[clamp(1rem,1.4vw,1.4em)] font-bold rounded-[0.3em]"
                   >
                     TESTAR
                   </button>
@@ -155,7 +154,7 @@ function Host() {
                     loading ? "bg-gray-400" : modalBackground
                   }`}
                 >
-                  <p className="p-[10px] pr-[10px] pl-[10px] text-white">
+                  <p className="p-[10px] pr-[50px] pl-[50px] text-white">
                     {loading ? "CARREGANDO..." : modalMessage}
                   </p>
                 </div>
@@ -167,19 +166,19 @@ function Host() {
                 loading || modalOpen ? "mt-[5px]" : "mt-[20px]"
               }`}
             >
-              <div className=" contedballon ballonconted bg-[#e8eaec] cursor-default pl-[30px] pr-[30px] pt-[10px] pb-[10px]  gap-[40px] flex rounded-[15px] transition-all duration-200 ease-in-out">
-                <div className="wrap22 text-[0.8em] pl-[20px] p-1 pr-[10px]">
+              <div className="ei2s2 w-[57vw] bg-[#e8eaec] cursor-default pl-[60px] pr-[40px] pt-[20px] pb-[20px]  gap-[40px] flex rounded-[28px] transition-all duration-200 ease-in-out">
+                <div className="  whitespace-nowrap text-[clamp(0.8rem,0.8vw,0.8em)] ">
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
                 </div>
-                <div className="a22 cursor-default  gap-[8px] flex items-center transition-all duration-200 ease-in-out ">
+                <div className="e2d3d cursor-default w-full flex-wrap text-[clamp(0.8rem,1.2vw,1em)] text-black font-bold flex items-center justify-evenly transition-all duration-200 ease-in-out">
                   <span>.com.br</span>
                   <span>.com</span>
                   <span>.net</span>
                   <span>.online</span>
                   <span>.site</span>
                   <span>.org</span>
-                  <span className="pr-[20px]">.store</span>
+                  <span>.store</span>
                 </div>
               </div>
             </div>
@@ -190,7 +189,7 @@ function Host() {
         <Carrossel />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[70vw]  border-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
+        <div className="eid2 w-[70vw]  border-b-[px] border-t-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="w-full  hidden lg:flex bg-[#62357F]   rounded-[50px] ">
             <div className="basic3 p-2  text-center h-[130px] bg-[#62357F] hidden lg:flex justify-center w-[19.7vw] items-center rounded-bl-[44px] border-[#FF7800] border-b-[3px] rounded-tl-[46px] text-gray-800 font-semibold">
               <h2 className=" text-white  text-[clamp(0.6rem,1.2vw,1.2em)]  ">
@@ -419,7 +418,7 @@ function Host() {
               </h1>
             </div>
             <div className=" border-orange-500 border-t-[2px] border-l-[4px] border-b-[2px]   hidden lg:flex  p-3 text-center bg-[#62357F]  rounded-l-[40px]   justify-center items-center  text-gray-800 w-[15.3vw]">
-              <h1 className="text-white translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
+              <h1 className="text-white  translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] font-bold">
                 19
               </h1>
               <div className="grid ">

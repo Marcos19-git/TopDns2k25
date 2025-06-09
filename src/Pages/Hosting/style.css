@@ -82,3 +82,26 @@
     margin-bottom: 20px;
   }
 }
+
+@media (min-width: 573px) and (max-width: 857px) {
+  .ei2s2 {
+    display: grid;
+    padding: 15px;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 857px) {
+  .e2d3d {
+    gap: 10px;
+  }
+}
+@media (max-width: 572px) {
+  .ei2s2 {
+    width: 100%;
+    display: grid;
+    padding: 15px;
+    gap: 10px; /* <-- Adicione isto */
+  }
+}

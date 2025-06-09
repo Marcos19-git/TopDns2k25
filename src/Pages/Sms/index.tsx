@@ -86,7 +86,7 @@ function Sms() {
         <Carrossel2 />
       </div>
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
-        <div className="eid2 w-[65vw]   border-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
+        <div className="eid2 w-[65vw]   border-t-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="flex w-full bg-[#FF7800] rounded-tr-[40px] rounded-tl-[40px] rounded-br-[40px] rounded-bl-[40px]">
             <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-[#FF7800] justify-center items-center rounded-bl-[50px] text-center  bg-[#FF7800] text-gray-800 ">
               <div className="grid">
