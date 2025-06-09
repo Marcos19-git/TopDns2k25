@@ -65,7 +65,7 @@ function Footer() {
                 src={Rodape1}
               />
             </a>
-            <p className="font-big-noodle  scale-y-130 flex mt-[17px]  text-[25px] text-white justify-center cursor-pointer">
+            <p className="  scale-y-150 flex mt-[17px]   text-white justify-center cursor-pointer text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.telefone.tipo}
             </p>
           </div>
@@ -80,7 +80,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape2} />
             </a>
-            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] justify-center  text-white text-[25px]">
+            <p className="  scale-y-150 cursor-pointer flex mt-[20px] justify-center  text-white  text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.email.tipo}
             </p>
           </div>
@@ -95,7 +95,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape3} />
             </a>
-            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px]  justify-center text-white text-[25px]">
+            <p className="  scale-y-150 cursor-pointer flex mt-[20px]  justify-center text-white  text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.facebook.tipo}
             </p>
           </div>
@@ -110,7 +110,7 @@ function Footer() {
             >
               <img className="w-[50px] h-[50px]" src={Rodape4} />
             </a>
-            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] justify-center  text-white text-[25px]">
+            <p className="  scale-y-150 cursor-pointer flex mt-[20px] justify-center  text-white text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.instagram.tipo}
             </p>
           </div>
@@ -125,7 +125,7 @@ function Footer() {
             >
               <img className="w-[60px] h-[50px]" src={Twitter} />
             </a>
-            <p className="font-big-noodle  scale-y-130 cursor-pointer flex mt-[20px] text-white  justify-center text-[25px]">
+            <p className="  scale-y-150 cursor-pointer flex mt-[20px] text-white  justify-center  text-[clamp(0.8em,1vw,1em)] font-bold">
               {contatos.twitter.tipo}
             </p>
           </div>
