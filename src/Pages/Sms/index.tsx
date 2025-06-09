@@ -22,14 +22,14 @@ function Sms() {
               </h1>
 
               {/* Botões permanecem iguais */}
-              <div className="flex justify-center ">
+              <div className="flex justify-center pr-[20px]">
                 <a
                   href="https://novo.topdns.com.br/hospedagem"
                   rel="noopener noreferrer"
                 >
                   <button
                     title="HOSPEDAGEM"
-                    className=" buttonorange22  font-winner  bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.5vw,1.5em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white  py-2 px-4"
+                    className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-white  py-2 px-4"
                   >
                     HOSPEDAGEM
                   </button>
@@ -40,7 +40,7 @@ function Sms() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#FF7800]  font-winner  min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white  py-2 px-4"
+                    className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-white  py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -51,7 +51,7 @@ function Sms() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#FF7800]  font-winner   hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.5vw,1.5em)] text-white w-[clamp(5em,10vw,8.75em)]  py-2 px-4 "
+                    className=" bg-[#FF7800]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,7vw,7em)]  py-2 px-4 "
                   >
                     ASSINE
                   </button>

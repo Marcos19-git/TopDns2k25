@@ -65,7 +65,7 @@ function Host() {
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[0%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[100%] px-4">
               <div className="grid">
-                <h1 className="registerr2  m-0 text-[#FF7800] scale-y-125 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
+                <h1 className="registerr2  m-0 text-[#FF7800] scale-y-105 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
                   REGISTRO DE DOMÍNIO
                 </h1>
                 <h2 className="m-0 text-white pb-[30px]  scale-y-125 text-center text-[clamp(0.8em,1.3vw,1.3em)] font-bold leading-tight">
@@ -125,7 +125,7 @@ function Host() {
               </div>
               <form className="flex" onSubmit={handleSubmit}>
                 <input
-                  className="tam w-[43vw] font-normal placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
+                  className="tam w-[43vw] font-normal placeholder:text-[1.5em] placeholder:font-bold placeholder:text-black text-black text-center  h-[50px] outline-none focus:ring-0 rounded-tr-[0.3em] rounded-br-[0.3em]"
                   name="dominio"
                   autoComplete="domain"
                   type="text"
@@ -171,7 +171,7 @@ function Host() {
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
                 </div>
-                <div className="e2d3d cursor-default w-full flex-wrap text-[clamp(0.8rem,1.2vw,1em)] text-black font-bold flex items-center justify-evenly transition-all duration-200 ease-in-out">
+                <div className="e2d3d cursor-default w-full flex-wrap text-[clamp(0.8rem,1.2vw,1em)] text-[#383E42] font-bold flex items-center justify-evenly transition-all duration-200 ease-in-out">
                   <span>.com.br</span>
                   <span>.com</span>
                   <span>.net</span>
@@ -252,22 +252,22 @@ function Host() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex">
-            <div className="border-r border-b text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[40vw]  text-black font-semibold">
+            <div className="border-r border-b text-[clamp(0.6rem,1.3vw,1rem)] p-2 pt-[20px] text-center w-[40vw]  text-black font-semibold">
               ESPAÇO EM DISCO
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]   text-[#8F8F90] font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center pt-[20px] w-[20vw]   text-[#8F8F90] font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center pt-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center pt-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               10GB
             </div>
-            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center pt-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               10GB
             </div>
-            <div className="border-l border-b text-[clamp(0.6rem,1.3vw,1rem)] p-2 text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border-l border-b text-[clamp(0.6rem,1.3vw,1rem)] p-2 pt-[20px] text-center w-[20vw]  text-[#8F8F90] font-semibold">
               10GB
             </div>
           </div>
@@ -392,22 +392,22 @@ function Host() {
             </div>
           </div>
           <div className="w-full hidden lg:flex">
-            <div className="border-t border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[40vw] text-black font-semibold">
+            <div className="border-t border-r p-2 text-[clamp(0.6rem,1.3vw,1rem)] pb-[20px] text-center w-[40vw] text-black font-semibold">
               NÃO DISPONÍVEL
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center pb-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center pb-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center pb-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               -
             </div>
-            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center pb-[20px] w-[20vw]  text-[#8F8F90] font-semibold">
               -
             </div>
-            <div className="border-t border-l p-2 text-[clamp(0.6rem,1.3vw,1rem)] text-center w-[20vw]  text-[#8F8F90] font-semibold">
+            <div className="border-t border-l p-2 text-[clamp(0.6rem,1.3vw,1rem)] pb-[20px] text-center w-[20vw]  text-[#8F8F90] font-semibold">
               -
             </div>
           </div>
@@ -421,11 +421,12 @@ function Host() {
               <h1 className="text-white font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid ">
-                <h2 className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  mt-[8px] mr-[-20px]">
-                  ,90
-                </h2>
-                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px]  translate-x-[6px]">
+              <div className="grid">
+                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
+                  <span className="font-ArabotoBlack">90</span>
+                </div>
+                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
                   Mês
                 </h2>
               </div>
@@ -434,11 +435,12 @@ function Host() {
               <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid ">
-                <h2 className="text-[#FF7800] font-ArabotoBlack h-[24px] text-[1.5em]   mt-[8px] mr-[-20px]">
-                  ,90
-                </h2>
-                <h2 className="text-[#FF7800] font-ArabotoBlack ml-[8px] mt-[2px]  translate-x-[6px]">
+              <div className="grid">
+                <div className="text-[#FF7800] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
+                  <span className="font-ArabotoBlack">90</span>
+                </div>
+                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
                   Mês
                 </h2>
               </div>
@@ -447,11 +449,12 @@ function Host() {
               <h1 className="text-white translate-x-[4px] font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid ">
-                <h2 className="text-white h-[24px] font-ArabotoBlack text-[1.5em]   mt-[8px] mr-[-20px]">
-                  ,90
-                </h2>
-                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px]  translate-x-[6px]">
+              <div className="grid">
+                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
+                  <span className="font-ArabotoBlack">90</span>
+                </div>
+                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
                   Mês
                 </h2>
               </div>
@@ -460,11 +463,12 @@ function Host() {
               <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid ">
-                <h2 className="text-[#FF7800] font-ArabotoBlack h-[24px] text-[1.5em]   mt-[8px] mr-[-20px]">
-                  ,90
-                </h2>
-                <h2 className="text-[#FF7800] font-ArabotoBlack ml-[8px] mt-[2px]  translate-x-[6px]">
+              <div className="grid">
+                <div className="text-[#FF7800] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
+                  <span className="font-ArabotoBlack">90</span>
+                </div>
+                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
                   Mês
                 </h2>
               </div>
@@ -473,11 +477,12 @@ function Host() {
               <h1 className="text-white font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid ">
-                <h2 className="text-white h-[24px] font-ArabotoBlack text-[1.5em]   mt-[8px] mr-[-10px]">
-                  ,90
-                </h2>
-                <h2 className="text-white ml-[8px] mt-[2px] font-ArabotoBlack translate-x-[2px]">
+              <div className="grid">
+                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
+                  <span className="font-ArabotoBlack">90</span>
+                </div>
+                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>
