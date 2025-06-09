@@ -53,7 +53,7 @@ function Host() {
     }
   };
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <div className="w-full grid relative">
         <img className="imagemm h-[800px] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
