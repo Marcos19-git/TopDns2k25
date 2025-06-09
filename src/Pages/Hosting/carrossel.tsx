@@ -97,9 +97,9 @@ function Carrossel() {
 
               <div className="bg-purple-950 rounded-bl-[44px] rounded-br-[44px] p-8 flex justify-between items-center text-white font-bold">
                 <h1 className="text-xl  text-[2.2em]">VALORES</h1>
-                <div className="flex items-center pl-[15px] text-3xl md:text4xl">
+                <div className="flex   items-center pl-[15px] text-[25px]">
                   R${slide.preco}
-                  <span className="text-sm ml-[4px] mt-[4px]  w-[50px]">
+                  <span className="text-sm ml-[4px]  mt-[4px]  w-[50px]">
                     /mês
                   </span>
                 </div>

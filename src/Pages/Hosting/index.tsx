@@ -53,7 +53,7 @@ function Host() {
     }
   };
   return (
-    <div className="w-full h-[100vh] overflow-x-hidden">
+    <div>
       <div className="w-full grid relative">
         <img className="imagemm h-[800px] w-full" src={ImgHeader} alt="" />
         <div className="w-full absolute p-[10px] grid justify-center items-center z-10">
@@ -73,7 +73,7 @@ function Host() {
                 </h2>
               </div>
               {/* Botões permanecem iguais */}
-              <div className="flex justify-center  w-full">
+              <div className="flex justify-center ">
                 <a
                   href="https://novo.topdns.com.br/hospedagem"
                   rel="noopener noreferrer"
@@ -91,7 +91,7 @@ function Host() {
                 >
                   <button
                     title="TOPSMS"
-                    className=" bg-[#FF7800] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                    className=" bg-[#FF7800] min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
                   >
                     TOPSMS
                   </button>
@@ -102,7 +102,7 @@ function Host() {
                 >
                   <button
                     title="ASSINE"
-                    className=" bg-[#FF7800] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+                    className=" bg-[#FF7800] hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4 "
                   >
                     ASSINE
                   </button>
@@ -172,7 +172,7 @@ function Host() {
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
                 </div>
-                <div className="mititle aa222 cursor-default  gap-[25px] flex items-center transition-all duration-200 ease-in-out ">
+                <div className="a22 cursor-default  gap-[8px] flex items-center transition-all duration-200 ease-in-out ">
                   <span>.com.br</span>
                   <span>.com</span>
                   <span>.net</span>

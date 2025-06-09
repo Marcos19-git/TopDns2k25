@@ -69,8 +69,10 @@
   padding-bottom: 40px;
 }
 
-.aa222 {
-  justify-content: center;
-  display: flex;
-  gap: 10px;
+@media (min-width: 858px) {
+  .a22 {
+    justify-content: center;
+    display: flex;
+    gap: 28px;
+  }
 }
