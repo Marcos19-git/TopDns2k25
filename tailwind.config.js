@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         winner: ['"Winner Sans Cond"', "sans-serif"],
+        ArabotoBlack: ['"Araboto Black"', "sans-serif"],
       },
     },
   },

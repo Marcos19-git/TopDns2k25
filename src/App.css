@@ -27,3 +27,9 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Araboto Black";
+  src: url("./fonts/araboto-black.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
