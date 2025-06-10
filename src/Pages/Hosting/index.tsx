@@ -139,7 +139,7 @@ function Host() {
                   <button
                     type="submit"
                     id="MyButton"
-                    className="testediv w-[clamp(5em,8vw,8em)] bg-[#62357F]  text-white text-[clamp(1rem,1.4vw,1.4em)] font-bold rounded-[0.3em]"
+                    className="w-[clamp(5em,8vw,8em)] bg-[#62357F]  text-white text-[clamp(1rem,1.4vw,1.4em)] font-bold rounded-[0.3em]"
                   >
                     TESTAR
                   </button>
