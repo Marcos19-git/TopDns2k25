@@ -65,10 +65,18 @@ function Host() {
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[0%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[100%] px-4">
               <div className="grid">
-                <h1 className="registerr2  h-[65px] font-ArabotoMedium m-0 text-[#FF7800]  text-center  text-[clamp(2em,4vw,4em)]  leading-tight">
+                <h1
+                  className="
+    h-[clamp(40px,4.6vw,80px)] 
+    font-ArabotoMedium 
+    m-0 
+    text-[#FF7800]  
+    text-center  
+    text-[clamp(2em,4.4vw,4.4em)]"
+                >
                   REGISTRO DE DOMÍNIO
                 </h1>
-                <h2 className="m-0 text-white pb-[30px]  font-ArabotoMedium  text-center text-[clamp(0.8em,1.45vw,1.45em)]  leading-tight">
+                <h2 className="m-0 text-white pb-[30px]  font-ArabotoMedium  text-center text-[clamp(0.8em,1.6vw,1.6em)]  ">
                   REGISTRE SEU DOMÍNIO E GARANTA O ENDEREÇO DO SEU SITE
                 </h2>
 
