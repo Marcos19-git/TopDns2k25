@@ -62,19 +62,19 @@ function Sms() {
         </div>
         <div className="control22  w-full mt-[-180px]  flex justify-center transition-all duration-200 ease-in-out">
           <div
-            className=" z-20 lg:w-[55vw] w-[100vw] 
+            className=" z-20 lg:w-[65vw] w-[100vw] 
               h-full
              border-2 border-[#FF7800] p-8 bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px]"
           >
-            <h1 className="items-center text-purple-800  text-[2.5em] text-center">
+            <h1 className="items-center text-[#6F3282]  text-[2.5em] text-center">
               CONHEÇA O TOPSMS
             </h1>
-            <h2 className="w-full text-center  text-white  text-[1.3em] pt-[20px]">
+            <h2 className="w-full text-center pl-[55px] pr-[55px] text-white  text-[1.3em] pt-[20px]">
               Uma plataforma de envio de mensagem via SMS ( sigla de Short
               Message Service, que em português significa Serviço de Mensagens
               Curtas ).
             </h2>
-            <h2 className="w-full text-center text-white  text-[1.3em] pt-[0px] pb-[10px]">
+            <h2 className="w-full text-center text-white pl-[20px] pr-[20px] text-[1.3em] pt-[0px] pb-[10px]">
               Uma ferramenta desenvolvida para quem quer e precisa de facilidade
               e praticidade. Melhora, de forma eficiente e dinâmica, a
               comunicação com seus clientes.
@@ -88,9 +88,9 @@ function Sms() {
       <div className="hidden w-full h-full lg:flex justify-center items-center p-[90px] pb-[120px]">
         <div className="eid2 w-[65vw]   border-t-[3px] border-l-[4px] border-r-[4px]  border-[#FF7800] rounded-[50px] rounded-br-[54px] rounded-bl-[54px] hidden lg:flex flex-wrap">
           <div className="flex w-full bg-[#FF7800] rounded-tr-[40px] rounded-tl-[40px] rounded-br-[40px] rounded-bl-[40px]">
-            <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex border-[#FF7800] justify-center items-center rounded-bl-[50px] text-center  bg-[#FF7800] text-gray-800 ">
+            <div className="basic2 p-[1.4em] w-[16.1vw] rounded-tl-[44px] hidden lg:flex justify-center items-center rounded-bl-[50px] text-center  bg-[#FF7800] text-gray-800 ">
               <div className="grid">
-                <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                <h1 className="text-white text-[clamp(0.8rem,1vw,1em)] h-[15px] ">
                   TOP BASIC
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
@@ -98,9 +98,9 @@ function Sms() {
                 </h2>
               </div>
             </div>
-            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-[#FF7800] hidden lg:flex justify-center  items-center text-gray-800 ">
+            <div className="basic2 border-l p-2 w-[16.1vw] text-center border-l-[#FFA55E] bg-[#FF7800] hidden lg:flex justify-center  items-center text-gray-800 ">
               <div className="grid">
-                <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                <h1 className="text-white text-[clamp(0.8rem,1vw,1em)] h-[15px] ">
                   TOP PLUS
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
@@ -109,9 +109,9 @@ function Sms() {
               </div>
             </div>
 
-            <div className="basic2 border-l p-2 w-[16.1vw] text-center bg-[#FF7800] hidden  lg:flex justify-center items-center text-gray-800 ">
+            <div className="basic2 border-l border-l-[#FFA55E] p-2 w-[16.1vw] text-center bg-[#FF7800] hidden  lg:flex justify-center items-center text-gray-800 ">
               <div className="grid">
-                <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                <h1 className="text-white text-[clamp(0.8rem,1vw,1em)] h-[15px] ">
                   TOP ELITE
                 </h1>
                 <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
@@ -120,9 +120,9 @@ function Sms() {
               </div>
             </div>
             <div className="grid">
-              <div className="basic2 border-l p-2 w-[16.1vw] text-center  bg-[#FF7800] hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
+              <div className="basic2 border-l border-l-[#FFA55E] p-2 w-[16.1vw] text-center  bg-[#FF7800] hidden lg:flex justify-center items-center rounded-tr-[40px] rounded-br-[50px] text-gray-800 ">
                 <div className="grid">
-                  <h1 className="text-white text-[clamp(0.8rem,1.2vw,1.2em)] h-[20px] ">
+                  <h1 className="text-white text-[clamp(0.8rem,1vw,1em)] h-[15px] ">
                     TOP ELITE
                   </h1>
                   <h2 className="text-white text-[clamp(1rem,1.8vw,1.8em)]">
@@ -160,19 +160,19 @@ function Sms() {
             </div>
           </div>
           <div className="w-[100vw] md:w-full hidden lg:flex border-[4px] rounded-[50px] border-orange-500  bg-white h-[130px]  ">
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tl-[46px] rounded-bl-[46px]  text-white font-semibold">
+            <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]  rounded-tl-[46px] rounded-bl-[46px]  text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]     text-orange-500 font-semibold">
+            <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]     text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="border-r p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]    text-white font-semibold">
+            <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]    text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
-            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#62357F] text-center w-[23vw]  rounded-tr-[46px] rounded-br-[46px]  text-orange-500 font-semibold">
+            <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]  rounded-tr-[46px] rounded-br-[46px]  text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
               <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
             </div>
@@ -196,24 +196,24 @@ function Sms() {
             </div>
           </div>
 
-          <div className="w-full hidden lg:flex bg-[#62357F] rounded-[50px] h-[110px] border-[4px] border-orange-500">
-            <div className="border-l p-2 text-center bg-[#62357F]  rounded-tl-[46px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[46px]  text-gray-800 font-semibold">
+          <div className="w-full hidden lg:flex bg-[#581A73] rounded-[50px] h-[110px] border-[4px] border-orange-500">
+            <div className="border-l p-2 text-center bg-[#581A73]  rounded-tl-[46px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[46px]  text-gray-800 font-semibold">
               <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>
             </div>
-            <div className="border-l   hidden lg:flex  p-3 text-center  w-[23vw]   justify-center items-center  text-gray-800 ">
+            <div className="border-l  border-l-[#9976A2] hidden lg:flex  p-3 text-center  w-[23vw]   justify-center items-center  text-gray-800 ">
               <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>
             </div>
 
-            <div className="border-l hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
+            <div className="border-l border-l-[#9976A2] hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-white text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>
             </div>
-            <div className="border-l hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
+            <div className="border-l border-l-[#9976A2] hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold">
                 ASSINE
               </h1>
