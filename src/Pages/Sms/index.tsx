@@ -162,59 +162,75 @@ function Sms() {
           <div className="w-[100vw] md:w-full hidden lg:flex border-[4px] rounded-[50px] border-orange-500  bg-white h-[130px]  ">
             <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]  rounded-tl-[46px] rounded-bl-[46px]  text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] font-ArabotoBlack ">
+                0,21
+              </h2>
             </div>
             <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]     text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] font-ArabotoBlack ">
+                0,21
+              </h2>
             </div>
             <div className="border-r border-r-[#9976A2] p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]    text-white font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] font-ArabotoBlack">
+                0,21
+              </h2>
             </div>
             <div className="p-5 text-[clamp(0.6rem,0.9vw,0.9rem)] bg-[#581A73] text-center w-[23vw]  rounded-tr-[46px] rounded-br-[46px]  text-orange-500 font-semibold">
               <h1 className="h-[0px]">VALOR POR SMS</h1>
-              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] ">0,21</h2>
+              <h2 className=" text-[clamp(0rem,4.5vw,4.5rem)] font-ArabotoBlack">
+                0,21
+              </h2>
             </div>
           </div>
-          <div className="w-[100vw] md:w-full hidden lg:flex">
-            <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
-              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
+          <div className="w-[100vw] md:h-[120px] md:w-full hidden lg:flex">
+            <div className="border-r p-3  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
+              <h1 className="h-[5px]">VALOR POR PACOTE</h1>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] font-ArabotoBlack ">
+                63,00
+              </h2>
             </div>
             <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
-              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
+              <h1 className="h-[5px] ">VALOR POR PACOTE</h1>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] font-ArabotoBlack ">
+                63,00
+              </h2>
             </div>
             <div className="border-r p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-purple-900 font-semibold">
-              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
+              <h1 className="h-[5px] ">VALOR POR PACOTE</h1>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] font-ArabotoBlack">
+                63,00
+              </h2>
             </div>
             <div className=" p-3 text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw]  pt-[20px]   text-orange-500 font-semibold">
-              <h1 className="h-[0px]">VALOR POR PACOTE</h1>
-              <h2 className=" text-[clamp(0rem,4vw,4rem)] ">63,00</h2>
+              <h1 className="h-[5px] ">VALOR POR PACOTE</h1>
+              <h2 className=" text-[clamp(0rem,4vw,4rem)] font-ArabotoBlack">
+                63,00
+              </h2>
             </div>
           </div>
 
           <div className="w-full hidden lg:flex bg-[#581A73] rounded-[50px] h-[110px] border-[4px] border-orange-500">
             <div className="border-l p-2 text-center bg-[#581A73]  rounded-tl-[46px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[46px]  text-gray-800 font-semibold">
-              <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold">
+              <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
                 ASSINE
               </h1>
             </div>
             <div className="border-l  border-l-[#9976A2] hidden lg:flex  p-3 text-center  w-[23vw]   justify-center items-center  text-gray-800 ">
-              <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold">
+              <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
                 ASSINE
               </h1>
             </div>
 
             <div className="border-l border-l-[#9976A2] hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
-              <h1 className="text-white text-[clamp(1.5rem,5vw,2rem)] font-bold">
+              <h1 className="text-white text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
                 ASSINE
               </h1>
             </div>
             <div className="border-l border-l-[#9976A2] hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
-              <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold">
+              <h1 className="text-orange-500 text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
                 ASSINE
               </h1>
             </div>

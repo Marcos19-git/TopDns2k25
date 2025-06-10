@@ -104,7 +104,7 @@ function Plans() {
             </div>
           </div>
         </div>
-        <div className="ballon cursor-pointer bg-[#f4eeee] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
+        <div className="ballon cursor-pointer bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
             <div className="flex justify-center bg-[#ff8400] p-[12px]  rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano1.nome}</h1>
@@ -112,20 +112,20 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="font-big-sprout justify-center flex text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-ArabotoBlack tracking-[-8px] justify-center flex text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano1.espaco_em_disco}
             </div>
-            <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">
+            <div className="flex font-ArabotoBlack  justify-end mt-[-85px]  pr-[47px] text-[28px]">
               <div className="translate-x-[2px]">,</div>
               {planos.plano1.trafego_mensal}
             </div>
-            <div className="flex justify-end pr-[45px] mt-[-12px] text-[20px]">
+            <div className="flex font-ArabotoBlack  justify-end pr-[45px] mt-[-12px] text-[20px]">
               Mês
             </div>
           </a>
         </div>
 
-        <div className="ballon cursor-pointer  bg-[#f4eeee] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
+        <div className="ballon cursor-pointer  bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
             <div className="flex justify-center bg-[#ff8400] p-[12px] rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano2.nome}</h1>
@@ -133,19 +133,19 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="font-big-sprout justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-ArabotoBlack tracking-[-8px] justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano2.espaco_em_disco}
             </div>
-            <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">
+            <div className="flex  font-ArabotoBlack justify-end mt-[-85px]  pr-[47px] text-[28px]">
               <div className="translate-x-[2px]">,</div>
               {planos.plano2.trafego_mensal}
             </div>
-            <div className="flex justify-end pr-[45px] mt-[-12px] text-[20px]">
+            <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px]">
               Mês
             </div>
           </a>
         </div>
-        <div className="ballon cursor-pointer  bg-[#f4eeee] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
+        <div className="ballon cursor-pointer  bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
             <div className="flex justify-center bg-[#ff8400] p-[12px]  rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano3.nome}</h1>
@@ -153,14 +153,14 @@ function Plans() {
             <div className="flex justify-center mt-[30px] text-gray-600">
               A partir de
             </div>
-            <div className="font-big-sprout justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
+            <div className="font-ArabotoBlack tracking-[-8px] justify-center flex  text-[75px] mt-[-15px] mr-[52px] ">
               {planos.plano3.espaco_em_disco}
             </div>
-            <div className="flex justify-end mt-[-85px]  pr-[47px] text-[28px]">
+            <div className="flex font-ArabotoBlack justify-end mt-[-85px]  pr-[47px] text-[28px]">
               <div className="translate-x-[2px]">,</div>
               {planos.plano3.trafego_mensal}
             </div>
-            <div className="flex justify-end pr-[45px] mt-[-12px] text-[20px] ">
+            <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px] ">
               Mês
             </div>
           </a>
