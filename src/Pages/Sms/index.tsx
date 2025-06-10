@@ -17,7 +17,7 @@ function Sms() {
           <div className="grid">
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[5%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[90%] px-4">
-              <h1 className=" text-[#FF7800] text-center p-10 pb-[50px] text-[clamp(2em,3.2vw,3.2em)]  font-bold ">
+              <h1 className=" text-[#FF7800] font-ArabotoMedium text-center p-10 pb-[50px] text-[clamp(2em,3.2vw,3.2em)]   ">
                 SMS EM GRANDES QUANTIDADES
               </h1>
 
@@ -66,7 +66,7 @@ function Sms() {
               h-full
              border-2 border-[#FF7800] p-8 bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px]"
           >
-            <h1 className="items-center text-[#6F3282]  text-[2.5em] text-center">
+            <h1 className="items-center text-[#6F3282] text-[2.5em] text-center">
               CONHEÇA O TOPSMS
             </h1>
             <h2 className="w-full text-center pl-[55px] pr-[55px] text-white  text-[1.3em] pt-[20px]">
