@@ -81,7 +81,7 @@ function Plans() {
     <section>
       <div className="divprue w-full flex flex-wrap  gap-[50px]  justify-center pt-[15px] pb-[85px]">
         <div className="flex">
-          <div className="ballon   grid justify-center items-center bg-[#ff8400] p-[10px] pt-[20px] pr-[15px] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
+          <div className="ballon   grid justify-center items-center bg-[#FF7900] p-[10px] pt-[20px] pr-[15px] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
             <div className="flex items-center mb-2">
               <img className="logop mr-2" src={Logopequena} />
               <h1 className="text-gray-800">{planos.descricao1.nome}</h1>
@@ -106,7 +106,7 @@ function Plans() {
         </div>
         <div className="ballon cursor-pointer bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
-            <div className="flex justify-center bg-[#ff8400] p-[12px]  rounded-t-[1.8em]">
+            <div className="flex justify-center bg-[#FF7900] p-[12px]  rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano1.nome}</h1>
             </div>
             <div className="flex justify-center mt-[30px] text-gray-600">
@@ -127,7 +127,7 @@ function Plans() {
 
         <div className="ballon cursor-pointer  bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
-            <div className="flex justify-center bg-[#ff8400] p-[12px] rounded-t-[1.8em]">
+            <div className="flex justify-center bg-[#FF7900] p-[12px] rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano2.nome}</h1>
             </div>
             <div className="flex justify-center mt-[30px] text-gray-600">
@@ -147,7 +147,7 @@ function Plans() {
         </div>
         <div className="ballon cursor-pointer  bg-[#F2F2F2] h-[210px] w-[210px] border-2 border-[#ff8400] rounded-[2em]">
           <a href="https://topdns.com.br/assine">
-            <div className="flex justify-center bg-[#ff8400] p-[12px]  rounded-t-[1.8em]">
+            <div className="flex justify-center bg-[#FF7900] p-[12px]  rounded-t-[1.8em]">
               <h1 className="text-[18px] font-bold">{planos.plano3.nome}</h1>
             </div>
             <div className="flex justify-center mt-[30px] text-gray-600">

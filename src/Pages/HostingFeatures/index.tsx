@@ -52,7 +52,7 @@ function HostingFeatures() {
 
   return (
     <section>
-      <div className="justify-center  w-full grid pt-[30px] bg-[#ff8400]">
+      <div className="justify-center  w-full grid pt-[30px] bg-[#FF7900]">
         <h1 className="text-white pr-[10px]  transition-all duration-200 cursor-default ease-in-out text-center  text-[clamp(1.5rem,3vw,2rem)] mb-[-5px] ">
           FUNCIONALIDADES DA HOSPEDAGEM DE SITES
         </h1>
@@ -60,7 +60,7 @@ function HostingFeatures() {
           Muito mais recursos disponíveis para o seu site
         </h2>
       </div>
-      <div className="divimg11 flex flex-wrap pt-[30px] pr-[30px] pl-[30px] gap-[40px] pb-[60px] justify-center w-full bg-[#ff8400]">
+      <div className="divimg11 flex flex-wrap pt-[30px] pr-[30px] pl-[30px] gap-[40px] pb-[60px] justify-center w-full bg-[#FF7900]">
         <img
           className="i1 w-[345px] h-[385px]"
           src={imagens.nome1.descricao}

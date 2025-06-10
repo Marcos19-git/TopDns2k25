@@ -65,10 +65,10 @@ function Host() {
             {/* Aqui, envolva os títulos em uma div com classes responsivas */}
             <div className="absolute top-[40%] left-[0%] transform -translate-y-1/2 text-white py-2 rounded-md flex flex-col items-center w-full max-w-[100%] px-4">
               <div className="grid">
-                <h1 className="registerr2  m-0 text-[#FF7800] scale-y-105 text-center text-[clamp(2em,3.6vw,3.6em)] font-semibold leading-tight">
+                <h1 className="registerr2  h-[65px] font-ArabotoMedium m-0 text-[#FF7800]  text-center  text-[clamp(2em,4vw,4em)]  leading-tight">
                   REGISTRO DE DOMÍNIO
                 </h1>
-                <h2 className="m-0 text-white pb-[30px]  scale-y-125 text-center text-[clamp(0.8em,1.3vw,1.3em)] font-bold leading-tight">
+                <h2 className="m-0 text-white pb-[30px]  font-ArabotoMedium  text-center text-[clamp(0.8em,1.45vw,1.45em)]  leading-tight">
                   REGISTRE SEU DOMÍNIO E GARANTA O ENDEREÇO DO SEU SITE
                 </h2>
 
@@ -80,7 +80,7 @@ function Host() {
                   >
                     <button
                       title="HOSPEDAGEM"
-                      className=" buttonorange22   font-winner bg-[#FF7800] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-r-[#FFA55E]   py-2 px-4"
+                      className=" buttonorange22   font-winner bg-[#FF7900] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-r-[#FFA55E]   py-2 px-4"
                     >
                       HOSPEDAGEM
                     </button>
@@ -91,7 +91,7 @@ function Host() {
                   >
                     <button
                       title="TOPSMS"
-                      className=" bg-[#FF7800]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-r-[#FFA55E]  py-2 px-4"
+                      className=" bg-[#FF7900]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-r-[#FFA55E]  py-2 px-4"
                     >
                       TOPSMS
                     </button>
@@ -102,7 +102,7 @@ function Host() {
                   >
                     <button
                       title="ASSINE"
-                      className=" bg-[#FF7800]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,7vw,7em)]  py-2 px-4 "
+                      className=" bg-[#FF7900]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,7vw,7em)]  py-2 px-4 "
                     >
                       ASSINE
                     </button>
@@ -117,7 +117,7 @@ function Host() {
             className={`divballoon ballondiv z-20 w-[70vw] mt-[-130px] border-2 border-[#FF7800] bg-[#FF7800] transition-all duration-200 ease-in-out rounded-[40px] p-[30px] flex flex-col items-center`}
           >
             <div className="divtitle flex cursor-default w-full justify-center pt-[30px] pb-[20px] text-[clamp(1.7em,2.8vw,2.8em)] text-black transition-all duration-200 ease-in-out">
-              <h1 className="items-center ">PESQUISA DE DOMÍNIO</h1>
+              <h1 className="items-center">PESQUISA DE DOMÍNIO</h1>
             </div>
             <div className="divplaceholder flex justify-center ">
               <div className="wwwdiv cursor-default text-white text-[clamp(1rem,1.4vw,1.4em)] w-[clamp(4em,5vw,5em)] flex justify-center items-center text-center rounded-l-[10px] bg-[#62357F]">
@@ -421,12 +421,16 @@ function Host() {
               <h1 className="text-white font-ArabotoBlack translate-x-[4px] mt-[10px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid">
-                <div className="text-white h-[24px] font-ArabotoBlack mt-[10px] text-[1.5em]  ml-[12px] flex items-start">
-                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
-                  <span className="font-ArabotoBlack">90</span>
+              <div className="grid ml-[4px]">
+                <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack text-[0.9em]">
+                    ,
+                  </span>
+                  <span className="font-ArabotoMedium text-[0.9em] tracking-[-1px]">
+                    90
+                  </span>
                 </div>
-                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
+                <h2 className="text-white ml-[8px] font-ArabotoMedium mt-[-1px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>
@@ -435,12 +439,16 @@ function Host() {
               <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] mt-[10px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid">
-                <div className="text-[#FF7800] h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
-                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
-                  <span className="font-ArabotoBlack">90</span>
+              <div className="grid ml-[4px]">
+                <div className="text-[#FF7800] h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack text-[0.9em]">
+                    ,
+                  </span>
+                  <span className="font-ArabotoMedium text-[0.9em] tracking-[-1px]">
+                    90
+                  </span>
                 </div>
-                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
+                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoMedium mt-[-1px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>
@@ -449,12 +457,16 @@ function Host() {
               <h1 className="text-white translate-x-[4px] mt-[10px] font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid">
-                <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
-                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
-                  <span className="font-ArabotoBlack">90</span>
+              <div className="grid ml-[4px]">
+                <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack text-[0.9em]">
+                    ,
+                  </span>
+                  <span className="font-ArabotoMedium text-[0.9em] tracking-[-1px]">
+                    90
+                  </span>
                 </div>
-                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
+                <h2 className="text-white ml-[8px] font-ArabotoMedium mt-[-1px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>
@@ -463,12 +475,16 @@ function Host() {
               <h1 className="text-[#FF7800] font-ArabotoBlack  mt-[10px] translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
-              <div className="grid">
-                <div className="text-[#FF7800] mt-[10px] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
-                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
-                  <span className="font-ArabotoBlack">90</span>
+              <div className="grid ml-[4px]">
+                <div className="text-[#FF7800] h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                  <span className="translate-x-[3px] font-ArabotoBlack text-[0.9em]">
+                    ,
+                  </span>
+                  <span className="font-ArabotoMedium text-[0.9em] tracking-[-1px]">
+                    90
+                  </span>
                 </div>
-                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[3px]">
+                <h2 className="text-[#FF7800] ml-[8px] font-ArabotoMedium mt-[-1px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>
@@ -479,10 +495,14 @@ function Host() {
               </h1>
               <div className="grid">
                 <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
-                  <span className="translate-x-[3px] font-ArabotoBlack">,</span>
-                  <span className="font-ArabotoBlack">90</span>
+                  <span className="translate-x-[3px] font-ArabotoBlack text-[0.9em]">
+                    ,
+                  </span>
+                  <span className="font-ArabotoMedium text-[0.9em] tracking-[-1px]">
+                    90
+                  </span>
                 </div>
-                <h2 className="text-white ml-[8px] font-ArabotoBlack mt-[2px] translate-x-[2px]">
+                <h2 className="text-white ml-[8px] font-ArabotoMedium mt-[-1px] translate-x-[2px]">
                   Mês
                 </h2>
               </div>

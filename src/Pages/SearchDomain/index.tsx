@@ -62,7 +62,7 @@ const SearchDomain = () => {
               <h1 className="items-center text-center">PESQUISA DE DOMÍNIO</h1>
             </div>
             <div className="divplaceholder flex justify-center ">
-              <div className="wwwdiv cursor-default flex text-white text-[20px] text-center rounded-l-[10px] items-center bg-[#ff8400] pr-[14px] pl-[14px]">
+              <div className="wwwdiv cursor-default flex text-white text-[20px] text-center rounded-l-[10px] items-center bg-[#FF7900] pr-[14px] pl-[14px]">
                 <h2 className="font-bold">WWW.</h2>
               </div>
               <form className="flex" onSubmit={handleSubmit}>
@@ -81,7 +81,7 @@ const SearchDomain = () => {
                   <button
                     type="submit"
                     id="MyButton"
-                    className="testediv  bg-[#ff8400] pl-[10px] pr-[10px] text-white text-[20px] font-bold rounded-[0.3em]"
+                    className="testediv  bg-[#FF7900] pl-[10px] pr-[10px] text-white text-[20px] font-bold rounded-[0.3em]"
                   >
                     TESTAR
                   </button>

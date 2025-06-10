@@ -33,3 +33,9 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Araboto Medium";
+  src: url("./fonts//araboto-medium.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}

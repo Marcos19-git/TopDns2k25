@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         winner: ['"Winner Sans Cond"', "sans-serif"],
         ArabotoBlack: ['"Araboto Black"', "sans-serif"],
+        ArabotoMedium: ['"Araboto Medium"', "sans-serif"],
       },
     },
   },
