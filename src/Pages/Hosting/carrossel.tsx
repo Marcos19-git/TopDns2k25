@@ -91,7 +91,9 @@ function Carrossel() {
                   <span className="p-2 h-full pr-4 border-r border-gray-300">
                     {key}
                   </span>
-                  <span className="pr-4 text-right text-gray-400">{value}</span>
+                  <span className="pr-4 justify-end flex  items-center text-gray-400">
+                    {value}
+                  </span>
                 </div>
               ))}
 

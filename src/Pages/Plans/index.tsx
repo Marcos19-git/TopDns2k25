@@ -121,7 +121,7 @@ function Plans() {
               </div>
               {planos.plano1.trafego_mensal}
             </div>
-            <div className="flex font-ArabotoBlack  justify-end pr-[45px] mt-[-12px] text-[20px]">
+            <div className="flex  justify-end pr-[45px] mt-[-15px] text-[20px]">
               Mês
             </div>
           </a>
@@ -144,7 +144,7 @@ function Plans() {
               </div>
               {planos.plano2.trafego_mensal}
             </div>
-            <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px]">
+            <div className="flex  justify-end pr-[45px] mt-[-15px] text-[20px]">
               Mês
             </div>
           </a>
@@ -166,7 +166,7 @@ function Plans() {
               </div>
               {planos.plano3.trafego_mensal}
             </div>
-            <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px] ">
+            <div className="flex  justify-end pr-[45px] mt-[-15px] text-[20px] ">
               Mês
             </div>
           </a>

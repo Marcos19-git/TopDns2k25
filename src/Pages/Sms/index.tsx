@@ -139,7 +139,6 @@ function Sms() {
               Médicas, Assistências técnicas, escolas de Educação infantil e
               outros.
             </div>
-
             <div className="border-r p-3 pt-[20px] pb-[20px]  text-[clamp(0.6rem,1.3vw,1rem)]  text-center w-[23vw] flex justify-center items-center text-gray-400 ">
               Indicado para empresas, profissionais liberais com uma demanda
               pequena de envio de SMS mensal. Exemplos: Advogados, Clínicas
@@ -211,7 +210,6 @@ function Sms() {
               </h2>
             </div>
           </div>
-
           <div className="w-full hidden lg:flex bg-[#581A73] rounded-[50px] h-[110px] border-[4px] border-orange-500">
             <div className="border-l p-2 text-center bg-[#581A73]  rounded-tl-[46px] w-[23vw] hidden lg:flex  justify-center items-center rounded-bl-[46px]  text-gray-800 font-semibold">
               <h1 className="text-white hidden lg:flex text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
@@ -223,7 +221,6 @@ function Sms() {
                 ASSINE
               </h1>
             </div>
-
             <div className="border-l border-l-[#9976A2] hidden lg:flex p-2 text-center  w-[23vw] justify-center items-center  text-gray-800 font-semibold">
               <h1 className="text-white text-[clamp(1.5rem,5vw,2rem)] font-bold font-ArabotoBlack">
                 ASSINE
