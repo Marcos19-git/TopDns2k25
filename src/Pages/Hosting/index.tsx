@@ -166,7 +166,7 @@ function Host() {
                 loading || modalOpen ? "mt-[5px]" : "mt-[20px]"
               }`}
             >
-              <div className="ei2s2 w-[57vw]  border-[3px] border-[#D5DDDF] bg-[#e8eaec] cursor-default pl-[60px] pr-[40px] pt-[20px] pb-[20px]  gap-[40px] flex rounded-[28px] transition-all duration-200 ease-in-out">
+              <div className="ei2s2 w-[57vw]  border-[3px] border-[#D5DDDF] bg-[#e8eaec] cursor-default pl-[60px] pr-[40px] pt-[15px] pb-[15px]  gap-[40px] flex rounded-[28px] transition-all duration-200 ease-in-out">
                 <div className="  whitespace-nowrap text-[clamp(0.8rem,0.8vw,0.8em)] ">
                   ㅤ Conheça os domíniosㅤ
                   <br className="hidden md:block" />ㅤ mais utilizados:
