@@ -418,11 +418,11 @@ function Host() {
               </h1>
             </div>
             <div className=" border-orange-500 border-t-[2px] border-l-[4px] border-b-[2px]   hidden lg:flex  p-3 text-center bg-[#59186F]  rounded-l-[40px]   justify-center items-center  text-gray-800 w-[15.3vw]">
-              <h1 className="text-white font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
+              <h1 className="text-white font-ArabotoBlack translate-x-[4px] mt-[10px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
               <div className="grid">
-                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                <div className="text-white h-[24px] font-ArabotoBlack mt-[10px] text-[1.5em]  ml-[12px] flex items-start">
                   <span className="translate-x-[3px] font-ArabotoBlack">,</span>
                   <span className="font-ArabotoBlack">90</span>
                 </div>
@@ -432,11 +432,11 @@ function Host() {
               </div>
             </div>
             <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500  border-[#9976A2] hidden lg:flex p-2 text-center bg-[#59186F]  justify-center items-center  text-gray-800  w-[15.3vw]">
-              <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
+              <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] mt-[10px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
               <div className="grid">
-                <div className="text-[#FF7800] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                <div className="text-[#FF7800] h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
                   <span className="translate-x-[3px] font-ArabotoBlack">,</span>
                   <span className="font-ArabotoBlack">90</span>
                 </div>
@@ -446,11 +446,11 @@ function Host() {
               </div>
             </div>
             <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-[#9976A2] hidden lg:flex p-2 text-center bg-[#59186F] [160px] justify-center items-center  text-gray-800  w-[15.3vw]">
-              <h1 className="text-white translate-x-[4px] font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
+              <h1 className="text-white translate-x-[4px] mt-[10px] font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
               <div className="grid">
-                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
                   <span className="translate-x-[3px] font-ArabotoBlack">,</span>
                   <span className="font-ArabotoBlack">90</span>
                 </div>
@@ -460,11 +460,11 @@ function Host() {
               </div>
             </div>
             <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-[#9976A2] hidden lg:flex p-2 text-center bg-[#59186F]  justify-center items-center  text-gray-800  w-[15.3vw]">
-              <h1 className="text-[#FF7800] font-ArabotoBlack translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
+              <h1 className="text-[#FF7800] font-ArabotoBlack  mt-[10px] translate-x-[4px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
               <div className="grid">
-                <div className="text-[#FF7800] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
+                <div className="text-[#FF7800] mt-[10px] h-[24px] font-ArabotoBlack text-[1.5em]  ml-[12px] flex items-start">
                   <span className="translate-x-[3px] font-ArabotoBlack">,</span>
                   <span className="font-ArabotoBlack">90</span>
                 </div>
@@ -474,11 +474,11 @@ function Host() {
               </div>
             </div>
             <div className="border-l-[2px] border-t-[2px] border-t-orange-500 border-b-[2px] border-b-orange-500 border-[#9976A2] hidden lg:flex p-2 text-center bg-[#59186F]  [160px] rounded-tr-[50px] justify-center items-center  rounded-br-[48px] text-gray-800  w-[15.3vw]">
-              <h1 className="text-white font-ArabotoBlack tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
+              <h1 className="text-white font-ArabotoBlack mt-[10px] tracking-[-8px] text-[clamp(1.5rem,5vw,5rem)] ">
                 19
               </h1>
               <div className="grid">
-                <div className="text-white h-[24px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
+                <div className="text-white h-[24px] mt-[10px] font-ArabotoBlack text-[1.5em]  ml-[6px] flex items-start">
                   <span className="translate-x-[3px] font-ArabotoBlack">,</span>
                   <span className="font-ArabotoBlack">90</span>
                 </div>
