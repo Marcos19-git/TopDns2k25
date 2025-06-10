@@ -1,12 +1,7 @@
 import "./style.css";
 import Assine from "../Hosting/Images/Hospedagem_01.png";
 import Logo from "../Images/logo_03.avif";
-import Boll from "../Images/Layout_11.png";
-import Rodape1 from "../Images/Home_51.avif";
-import Rodape2 from "../Images/Home_53.avif";
-import Rodape3 from "../Images/Home_55.avif";
-import Rodape4 from "../Images/Home_58.avif";
-import Twitter from "../Images/icon-twitter.avif";
+import Footer from "../Footer/index";
 import axios from "axios";
 import { useState } from "react";
 
@@ -145,27 +140,23 @@ function AssinePage() {
 
       <div className="w-full flex relative ">
         <div className=" w-full absolute flex justify-center">
-          <img
-            className="w-[clamp(120px,40vw,420px)] pt-[10px]"
-            src={Logo}
-            alt=""
-          />
+          <img className="w-[350px] p-[20px]" src={Logo} alt="" />
         </div>
-        <div className="absolute flex w-full text-white h-full items-center justify-center">
-          <h1 className="text-[clamp(1rem,2.4vw,2.4rem)] font-bold text-center">
+        <div className="absolute flex w-full text-[#FF7800]  h-full items-center justify-center">
+          <h1 className="text-[clamp(1rem,2.4vw,2.4rem)] font-ArabotoMedium text-center">
             PREENCHA OS DADOS ABAIXO CORRETAMENTE
           </h1>
         </div>
         <img className="w-full h-[800px]" src={Assine} alt="" />
         <div className="absolute mt-[80px] flex h-full w-full justify-center items-center">
-          <div className="flex justify-center  w-full">
+          <div className="flex justify-center pr-[20px]">
             <a
               href="https://novo.topdns.com.br/hospedagem"
               rel="noopener noreferrer"
             >
               <button
                 title="HOSPEDAGEM"
-                className=" buttonorange22 bg-[#ff8400] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,10vw,9.75em)] border-r-2 border-white font-bold py-2 px-4"
+                className=" buttonorange22   font-winner bg-[#FF7900] min-w-[150px] text-[clamp(1em,1.3vw,1.3em)] hover:bg-orange-700 text-white w-[clamp(5em,7vw,7em)] border-r-2 border-r-[#FFA55E]   py-2 px-4"
               >
                 HOSPEDAGEM
               </button>
@@ -173,7 +164,7 @@ function AssinePage() {
             <a href="https://novo.topdns.com.br/sms" rel="noopener noreferrer">
               <button
                 title="TOPSMS"
-                className=" bg-[#ff8400] min-w-[120px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] border-r-2 border-white font-bold py-2 px-4"
+                className=" bg-[#FF7900]    font-winner min-w-[100px] hover:bg-orange-700 text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,6vw,6em)] border-r-2 border-r-[#FFA55E]  py-2 px-4"
               >
                 TOPSMS
               </button>
@@ -181,7 +172,7 @@ function AssinePage() {
             <a href="https://topdns.com.br/assine" rel="noopener noreferrer">
               <button
                 title="ASSINE"
-                className=" bg-[#ff8400] hover:bg-orange-700 min-w-[120px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,10vw,8.75em)] font-bold py-2 px-4"
+                className=" bg-[#FF7900]   font-winner hover:bg-orange-700 min-w-[100px] text-[clamp(1em,1.3vw,1.3em)] text-white w-[clamp(5em,7vw,7em)]  py-2 px-4 "
               >
                 ASSINE
               </button>
@@ -191,10 +182,11 @@ function AssinePage() {
       </div>
 
       <main className="w-full pt-[40px] pb-[40px] grid justify-items-center">
-        <img className="h-[60px] w-[50px]" src={Boll} alt="" />
-        <h1 className="p-4  text-[25px]">ASSINE</h1>
+        <h1 className="p-4  text-[35px] text-[#FF7900] font-ArabotoMedium">
+          ASSINE
+        </h1>
         <div className="flex w-[100vw] justify-center">
-          <span className="w-[600px] text-center p-5 text-gray-400">
+          <span className="w-[800px] text-center p-5 text-[18px] text-gray-400">
             Adicione abaixo as informações de contato e qual plano deseja
             contratar, que um de nossos consultores entrara em contato.
           </span>
@@ -400,91 +392,8 @@ function AssinePage() {
             </div>
           </div>
         </div>
-        <div className="flex w-[100vw] justify-center p-[45px] bg-[#ff8400]">
-          <div className="controldivfooter flex justify-center flex-wrap gap-[100px] gap-y-[40px] max-sm:grid ">
-            {/* Telefone */}
-            <div className="hover:opacity-50">
-              <a
-                href="tel:6632110010"
-                className="flex justify-center"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  className="flex justify-center w-[50px] h-[50px]"
-                  src={Rodape1}
-                />
-              </a>
-              <p className="tell  scale-y-150 flex mt-[17px] font-semibold text-[clamp(0.8rem,_4vw,_0.9rem)] text-white justify-center cursor-pointer">
-                (66) 3211-0010
-              </p>
-            </div>
-
-            {/* Email */}
-            <div className="hover:opacity-50">
-              <a
-                className="flex justify-center"
-                href="mailto:COMERCIAL@TOPSAPP.COM.BR"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="w-[50px] h-[50px]" src={Rodape2} />
-              </a>
-              <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-                COMERCIAL@TOPSAPP.COM.BR
-              </p>
-            </div>
-
-            {/* Facebook */}
-            <div className="hover:opacity-50">
-              <a
-                className="flex justify-center"
-                href="https://www.facebook.com/topsapp10"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="w-[50px] h-[50px]" src={Rodape3} />
-              </a>
-              <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] font-semibold justify-center text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-                FACEBOOK
-              </p>
-            </div>
-
-            {/* Instagram */}
-            <div className="hover:opacity-50">
-              <a
-                className="flex justify-center"
-                href="https://www.instagram.com/topsapp10/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="w-[50px] h-[50px]" src={Rodape4} />
-              </a>
-              <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] justify-center font-semibold text-white text-[clamp(0.8rem,_4vw,_0.7rem)]">
-                INSTAGRAM
-              </p>
-            </div>
-
-            {/* Twitter */}
-            <div className="hover:opacity-50">
-              <a
-                className="flex justify-center"
-                href="https://twitter.com/topsapp"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img className="w-[60px] h-[50px]" src={Twitter} />
-              </a>
-              <p className="tell  scale-y-150 cursor-pointer flex mt-[20px] text-white font-semibold justify-center text-[clamp(0.8rem,_4vw,_0.7rem)]">
-                TWITTER
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="bg-black w-full">
-          <h1 className="bg-black text-[#ff8400] cursor-default flex justify-center items-center text-center text-[clamp(0.8rem,_4vw,_1rem)] p-[20px]">
-            Copyright 2025 - Todos os direitos Reservados TopDns
-          </h1>
+        <div className="w-full">
+          <Footer />
         </div>
       </div>
     </div>
