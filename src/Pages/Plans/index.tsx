@@ -116,7 +116,9 @@ function Plans() {
               {planos.plano1.espaco_em_disco}
             </div>
             <div className="flex font-ArabotoBlack  justify-end mt-[-85px]  pr-[47px] text-[28px]">
-              <div className="translate-x-[2px]">,</div>
+              <div className="translate-x-[2px] font-ArabotoMedium mr-[-1.6px]">
+                ,
+              </div>
               {planos.plano1.trafego_mensal}
             </div>
             <div className="flex font-ArabotoBlack  justify-end pr-[45px] mt-[-12px] text-[20px]">
@@ -137,7 +139,9 @@ function Plans() {
               {planos.plano2.espaco_em_disco}
             </div>
             <div className="flex  font-ArabotoBlack justify-end mt-[-85px]  pr-[47px] text-[28px]">
-              <div className="translate-x-[2px]">,</div>
+              <div className="translate-x-[2px] font-ArabotoMedium mr-[-1.6px]">
+                ,
+              </div>
               {planos.plano2.trafego_mensal}
             </div>
             <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px]">
@@ -157,7 +161,9 @@ function Plans() {
               {planos.plano3.espaco_em_disco}
             </div>
             <div className="flex font-ArabotoBlack justify-end mt-[-85px]  pr-[47px] text-[28px]">
-              <div className="translate-x-[2px]">,</div>
+              <div className="translate-x-[2px] font-ArabotoMedium mr-[-1.6px]">
+                ,
+              </div>
               {planos.plano3.trafego_mensal}
             </div>
             <div className="flex font-ArabotoBlack justify-end pr-[45px] mt-[-12px] text-[20px] ">
